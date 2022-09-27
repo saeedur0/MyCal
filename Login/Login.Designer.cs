@@ -32,8 +32,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.closebtn = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.emailicoBox3 = new System.Windows.Forms.PictureBox();
+            this.emailBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -72,6 +75,31 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+            // emailicoBox3
+            // 
+            this.emailicoBox3.BackColor = System.Drawing.Color.Transparent;
+            this.emailicoBox3.Image = global::Login.Properties.Resources.akar_icons_person1;
+            this.emailicoBox3.Location = new System.Drawing.Point(222, 148);
+            this.emailicoBox3.Name = "emailicoBox3";
+            this.emailicoBox3.Size = new System.Drawing.Size(23, 23);
+            this.emailicoBox3.TabIndex = 3;
+            this.emailicoBox3.TabStop = false;
+            // 
+            // emailBox1
+            // 
+            this.emailBox1.BackColor = System.Drawing.Color.White;
+            this.emailBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.emailBox1.Location = new System.Drawing.Point(251, 144);
+            this.emailBox1.Multiline = true;
+            this.emailBox1.Name = "emailBox1";
+            this.emailBox1.Size = new System.Drawing.Size(325, 31);
+            this.emailBox1.TabIndex = 4;
+            this.emailBox1.Text = "Email";
+            this.emailBox1.TextChanged += new System.EventHandler(this.emailBox1_TextChanged);
+            this.emailBox1.Enter += new System.EventHandler(this.emailBox1_Enter);
+            this.emailBox1.Leave += new System.EventHandler(this.emailBox1_Leave);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -79,6 +107,8 @@
             this.BackgroundImage = global::Login.Properties.Resources.MyCal_Login1;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.ControlBox = false;
+            this.Controls.Add(this.emailBox1);
+            this.Controls.Add(this.emailicoBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.closebtn);
             this.Controls.Add(this.pictureBox1);
@@ -89,7 +119,9 @@
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -98,6 +130,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button closebtn;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox emailicoBox3;
+        private System.Windows.Forms.TextBox emailBox1;
     }
 }
 
