@@ -36,9 +36,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Login.Properties.Resources.login_input2;
-            this.pictureBox1.Location = new System.Drawing.Point(215, 120);
+            this.pictureBox1.Location = new System.Drawing.Point(215, 140);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(372, 44);
             this.pictureBox1.TabIndex = 0;
