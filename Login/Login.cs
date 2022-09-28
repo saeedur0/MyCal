@@ -88,9 +88,10 @@ namespace Login
                 {
                     MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     //Process your login here
-                    //Login form = new MainInterface();
-                        //form.Show();
-                        //this.Hide();
+
+                    MainInterface form = new MainInterface();
+                        form.Show();
+                        this.Hide();
 
                 }
                 else
