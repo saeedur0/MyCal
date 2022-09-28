@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Login
@@ -16,6 +17,10 @@ namespace Login
         public Login()
         {
             InitializeComponent();
+
+            OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.accdb");
+            OleDbCommand cmd = new OleDbCommand();
+            OleDbDataAdapter da = new OleDbDataAdapter();
         }
 
         private void closebtn_Click(object sender, EventArgs e)
