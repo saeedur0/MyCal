@@ -125,5 +125,8 @@
   <ItemGroup>
     <None Include="Resources\akar-icons_person1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carbon_password.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -48,5 +48,27 @@ namespace Login
 
             }
         }
+
+        private void passwordBox1_Enter(object sender, EventArgs e)
+        {
+            if (passwordBox1.Text == "Password")
+            {
+                passwordBox1.Text = "";
+
+                passwordBox1.ForeColor = Color.Black;
+
+            }
+        }
+
+        private void passwordBox1_Leave(object sender, EventArgs e)
+        {
+            if (passwordBox1.Text == "")
+            {
+                passwordBox1.Text = "Password";
+
+                passwordBox1.ForeColor = Color.Silver;
+
+            }
+        }
     }
 }

@@ -34,9 +34,12 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.emailicoBox3 = new System.Windows.Forms.PictureBox();
             this.emailBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.passwordBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -100,6 +103,29 @@
             this.emailBox1.Enter += new System.EventHandler(this.emailBox1_Enter);
             this.emailBox1.Leave += new System.EventHandler(this.emailBox1_Leave);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Login.Properties.Resources.carbon_password;
+            this.pictureBox3.Location = new System.Drawing.Point(222, 210);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // passwordBox1
+            // 
+            this.passwordBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.passwordBox1.Location = new System.Drawing.Point(251, 206);
+            this.passwordBox1.Multiline = true;
+            this.passwordBox1.Name = "passwordBox1";
+            this.passwordBox1.Size = new System.Drawing.Size(325, 31);
+            this.passwordBox1.TabIndex = 6;
+            this.passwordBox1.Text = "Password";
+            this.passwordBox1.Enter += new System.EventHandler(this.passwordBox1_Enter);
+            this.passwordBox1.Leave += new System.EventHandler(this.passwordBox1_Leave);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -107,6 +133,8 @@
             this.BackgroundImage = global::Login.Properties.Resources.MyCal_Login1;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.ControlBox = false;
+            this.Controls.Add(this.passwordBox1);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.emailBox1);
             this.Controls.Add(this.emailicoBox3);
             this.Controls.Add(this.pictureBox2);
@@ -120,6 +148,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,6 +161,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox emailicoBox3;
         private System.Windows.Forms.TextBox emailBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.TextBox passwordBox1;
     }
 }
 
