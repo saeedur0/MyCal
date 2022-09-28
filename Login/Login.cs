@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Login
@@ -18,9 +17,6 @@ namespace Login
         {
             InitializeComponent();
 
-            OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.accdb");
-            OleDbCommand cmd = new OleDbCommand();
-            OleDbDataAdapter da = new OleDbDataAdapter();
         }
 
         private void closebtn_Click(object sender, EventArgs e)
@@ -74,6 +70,36 @@ namespace Login
                 passwordBox1.ForeColor = Color.Silver;
 
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(emailBox1.Text))
+            {
+                MessageBox.Show("Please enter your Email", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                emailBox1.Focus();
+                return;
+            }
+            try
+            {
+                MyCal_UsersDataTableAdapters.tbl_usersTableAdapter user = new MyCal_UsersDataTableAdapters.tbl_usersTableAdapter();
+                MyCal_UsersData.tbl_usersDataTable dt = user.GetDataByEmailPassword(emailBox1.Text,passwordBox1.Text);
+                if (dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //Process your login here
+                }
+                else
+                {
+                    MessageBox.Show("Your Email or Password is incorrect", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
     }
 }
