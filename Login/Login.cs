@@ -74,7 +74,7 @@ namespace Login
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            emailBox1.Text = "";
+            
             if (emailBox1.Text == "")
             {
                 MessageBox.Show("Please enter your Email", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
