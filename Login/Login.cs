@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Data.OleDb;
 
 namespace Login
 {
@@ -18,6 +19,11 @@ namespace Login
             InitializeComponent();
 
         }
+
+
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.12.0;Data Source=mycal.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
 
         private void closebtn_Click(object sender, EventArgs e)
         {
@@ -74,39 +80,31 @@ namespace Login
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            con.Open();
+            string login = "SELECT * From tbl_users WHERE email= '" + emailBox1.Text + "' and password= '" + passwordBox1.Text + "'";
+            cmd = new OleDbCommand(login, con);
+            OleDbDataReader dr = cmd.ExecuteReader();
 
-      
-            if (emailBox1.Text == "")
+            if (dr.Read() == true)
             {
-                MessageBox.Show("Your Email or Password is incorrect", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                emailBox1.Focus();
-                return;
-            }
-            try
-            {
-                MyCal_UsersDataTableAdapters.tbl_usersTableAdapter user = new MyCal_UsersDataTableAdapters.tbl_usersTableAdapter();
-                MyCal_UsersData.tbl_usersDataTable dt = user.GetDataByEmailPassword(emailBox1.Text,passwordBox1.Text);
-                if (dt.Rows.Count > 0)
-                {
-                    MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //Process your login here
-
-                    MainInterface form = new MainInterface();
-                        form.Show();
-                        this.Hide();
-
-                }
-                else
-                {
-                    MessageBox.Show("Your Email or Password is incorrect", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                new MainInterface().Show();
+                this.Hide();
             }
 
+            else
+            {
+                MessageBox.Show("Invalid Username or Password, Please Try Again", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                emailBox1.Text = "";
+                passwordBox1.Text = "";
+            
+            }
+
+        }
+
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            new register().Show();
+            this.Hide();
         }
     }
 }
