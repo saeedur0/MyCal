@@ -36,10 +36,9 @@
             this.emailBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.passwordBox1 = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.memberlabel = new System.Windows.Forms.Label();
             this.registerlbl = new System.Windows.Forms.LinkLabel();
-            this.mycalbuttons1 = new MyCal.mycalbuttons();
+            this.btnLogin = new MyCal.mycalbuttons();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).BeginInit();
@@ -130,19 +129,6 @@
             this.passwordBox1.Enter += new System.EventHandler(this.passwordBox1_Enter);
             this.passwordBox1.Leave += new System.EventHandler(this.passwordBox1_Leave);
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(41)))));
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Location = new System.Drawing.Point(363, 279);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 7;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
             // memberlabel
             // 
             this.memberlabel.AutoSize = true;
@@ -169,26 +155,27 @@
             this.registerlbl.Text = "Register!";
             this.registerlbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerlbl_LinkClicked);
             // 
-            // mycalbuttons1
+            // btnLogin
             // 
-            this.mycalbuttons1.BackColor = System.Drawing.Color.Transparent;
-            this.mycalbuttons1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.mycalbuttons1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.mycalbuttons1.BorderColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.mycalbuttons1.BorderRadius = 20;
-            this.mycalbuttons1.BorderRadius1 = 20;
-            this.mycalbuttons1.BorderSize = 3;
-            this.mycalbuttons1.BorderSize1 = 3;
-            this.mycalbuttons1.FlatAppearance.BorderSize = 0;
-            this.mycalbuttons1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.mycalbuttons1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.mycalbuttons1.Location = new System.Drawing.Point(138, 270);
-            this.mycalbuttons1.Name = "mycalbuttons1";
-            this.mycalbuttons1.Size = new System.Drawing.Size(150, 40);
-            this.mycalbuttons1.TabIndex = 11;
-            this.mycalbuttons1.Text = "Login";
-            this.mycalbuttons1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.mycalbuttons1.UseVisualStyleBackColor = false;
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.BorderColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.BorderRadius = 20;
+            this.btnLogin.BorderRadius1 = 20;
+            this.btnLogin.BorderSize = 3;
+            this.btnLogin.BorderSize1 = 3;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.Location = new System.Drawing.Point(320, 267);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(150, 40);
+            this.btnLogin.TabIndex = 11;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Login
             // 
@@ -197,10 +184,9 @@
             this.BackgroundImage = global::Login.Properties.Resources.MyCal_Login1;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.ControlBox = false;
-            this.Controls.Add(this.mycalbuttons1);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.registerlbl);
             this.Controls.Add(this.memberlabel);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.passwordBox1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.emailBox1);
@@ -231,10 +217,9 @@
         private System.Windows.Forms.TextBox emailBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox passwordBox1;
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label memberlabel;
         private System.Windows.Forms.LinkLabel registerlbl;
-        private MyCal.mycalbuttons mycalbuttons1;
+        private MyCal.mycalbuttons btnLogin;
     }
 }
 
