@@ -33,8 +33,7 @@ namespace Login
             this.Hide();
         }
         
-
-        private void btnJoin_Click(object sender, EventArgs e)
+        private void btnJoin3_Click_1(object sender, EventArgs e)
         {
             if (txtName.Text == "" && txtEmail.Text == "" && txtPass.Text == "")
             {
@@ -60,10 +59,8 @@ namespace Login
                 txtconfPass.Text = "";
                 txtPass.Focus();
 
-            
+
             }
         }
-
-        
     }
 }
