@@ -16,20 +16,22 @@ namespace Login
         public register()
         {
             InitializeComponent();
+
+            this.fnamelbl.BackColor = System.Drawing.Color.Transparent;
+            this.elbl.BackColor = System.Drawing.Color.Transparent;
+            this.plbl.BackColor = System.Drawing.Color.Transparent;
+            this.clbl.BackColor = System.Drawing.Color.Transparent;
         }
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=mycal.accdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
         
-        
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void backbtn_Click(object sender, EventArgs e)
         {
             new Login().Show();
             this.Hide();
-
         }
-
         
 
         private void btnJoin_Click(object sender, EventArgs e)
@@ -61,5 +63,7 @@ namespace Login
             
             }
         }
+
+        
     }
 }

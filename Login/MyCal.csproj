@@ -150,5 +150,11 @@
   <ItemGroup>
     <None Include="Resources\carbon_password.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow--left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
