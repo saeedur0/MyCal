@@ -128,7 +128,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 388);
+            this.BackgroundImage = global::Login.Properties.Resources.MyCal_Login1;
+            this.ClientSize = new System.Drawing.Size(731, 388);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtconfPass);
             this.Controls.Add(this.btnCancel);

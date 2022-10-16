@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Data.OleDb;
+using System.Reflection.Emit;
 
 namespace Login
 {
@@ -17,6 +18,10 @@ namespace Login
         public Login()
         {
             InitializeComponent();
+
+            this.memberlabel.BackColor = System.Drawing.Color.Transparent;
+            this.registerlbl.BackColor = System.Drawing.Color.Transparent;
+            this.registerlbl.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
 
         }
 
@@ -93,7 +98,7 @@ namespace Login
 
             else
             {
-                MessageBox.Show("Invalid Username or Password, Please Try Again", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Invalid Email or Password, Please Try Again", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 emailBox1.Text = "";
                 passwordBox1.Text = "";
             
@@ -101,10 +106,12 @@ namespace Login
 
         }
 
-        private void btnReg_Click(object sender, EventArgs e)
+        private void registerlbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new register().Show();
             this.Hide();
         }
+
+        
     }
 }
