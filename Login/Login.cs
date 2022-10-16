@@ -21,7 +21,7 @@ namespace Login
         }
 
 
-        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.12.0;Data Source=mycal.mdb");
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=mycal.mdb");
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
