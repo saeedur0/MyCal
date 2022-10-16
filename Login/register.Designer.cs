@@ -39,6 +39,7 @@
             this.clbl = new System.Windows.Forms.Label();
             this.txtconfPass = new System.Windows.Forms.TextBox();
             this.backbtn = new System.Windows.Forms.Button();
+            this.btnLogin = new MyCal.mycalbuttons();
             this.SuspendLayout();
             // 
             // txtEmail
@@ -65,6 +66,7 @@
             // fnamelbl
             // 
             this.fnamelbl.AutoSize = true;
+            this.fnamelbl.ForeColor = System.Drawing.Color.White;
             this.fnamelbl.Location = new System.Drawing.Point(242, 156);
             this.fnamelbl.Name = "fnamelbl";
             this.fnamelbl.Size = new System.Drawing.Size(54, 13);
@@ -74,6 +76,7 @@
             // elbl
             // 
             this.elbl.AutoSize = true;
+            this.elbl.ForeColor = System.Drawing.Color.White;
             this.elbl.Location = new System.Drawing.Point(263, 182);
             this.elbl.Name = "elbl";
             this.elbl.Size = new System.Drawing.Size(32, 13);
@@ -83,6 +86,7 @@
             // plbl
             // 
             this.plbl.AutoSize = true;
+            this.plbl.ForeColor = System.Drawing.Color.White;
             this.plbl.Location = new System.Drawing.Point(242, 208);
             this.plbl.Name = "plbl";
             this.plbl.Size = new System.Drawing.Size(53, 13);
@@ -102,6 +106,7 @@
             // clbl
             // 
             this.clbl.AutoSize = true;
+            this.clbl.ForeColor = System.Drawing.Color.White;
             this.clbl.Location = new System.Drawing.Point(204, 235);
             this.clbl.Name = "clbl";
             this.clbl.Size = new System.Drawing.Size(91, 13);
@@ -131,12 +136,34 @@
             this.backbtn.UseVisualStyleBackColor = false;
             this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
             // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.BorderColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.BorderRadius = 20;
+            this.btnLogin.BorderRadius1 = 20;
+            this.btnLogin.BorderSize = 3;
+            this.btnLogin.BorderSize1 = 3;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.Location = new System.Drawing.Point(427, 254);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(150, 40);
+            this.btnLogin.TabIndex = 13;
+            this.btnLogin.Text = "Join MyCal";
+            this.btnLogin.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnLogin.UseVisualStyleBackColor = false;
+            // 
             // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.register;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.clbl);
             this.Controls.Add(this.txtconfPass);
@@ -168,5 +195,6 @@
         private System.Windows.Forms.Label clbl;
         private System.Windows.Forms.TextBox txtconfPass;
         private System.Windows.Forms.Button backbtn;
+        private MyCal.mycalbuttons btnLogin;
     }
 }
