@@ -16,6 +16,14 @@ namespace Login
         {
             InitializeComponent();
 
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnWorkouts_Click(object sender, EventArgs e)
