@@ -29,7 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Workouts));
+            this.mycalbuttons1 = new MyCal.mycalbuttons();
             this.SuspendLayout();
+            // 
+            // mycalbuttons1
+            // 
+            this.mycalbuttons1.BackColor = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.BorderColor = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.BorderColor1 = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.BorderRadius = 20;
+            this.mycalbuttons1.BorderRadius1 = 20;
+            this.mycalbuttons1.BorderSize = 0;
+            this.mycalbuttons1.BorderSize1 = 0;
+            this.mycalbuttons1.FlatAppearance.BorderSize = 0;
+            this.mycalbuttons1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mycalbuttons1.ForeColor = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.Location = new System.Drawing.Point(267, 177);
+            this.mycalbuttons1.Name = "mycalbuttons1";
+            this.mycalbuttons1.Size = new System.Drawing.Size(150, 40);
+            this.mycalbuttons1.TabIndex = 0;
+            this.mycalbuttons1.Text = "mycalbuttons1";
+            this.mycalbuttons1.TextColor = System.Drawing.Color.Transparent;
+            this.mycalbuttons1.UseVisualStyleBackColor = false;
             // 
             // Workouts
             // 
@@ -38,6 +60,7 @@
             this.BackgroundImage = global::Login.Properties.Resources.wrkouts;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.Controls.Add(this.mycalbuttons1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Workouts";
@@ -48,5 +71,7 @@
         }
 
         #endregion
+
+        private MyCal.mycalbuttons mycalbuttons1;
     }
 }
