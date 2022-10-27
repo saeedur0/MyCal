@@ -76,6 +76,12 @@
     <Compile Include="splashscreen.Designer.cs">
       <DependentUpon>splashscreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Workouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workouts.Designer.cs">
+      <DependentUpon>Workouts.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="splashscreen.resx">
       <DependentUpon>splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workouts.resx">
+      <DependentUpon>Workouts.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -155,6 +164,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workouts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrkouts.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

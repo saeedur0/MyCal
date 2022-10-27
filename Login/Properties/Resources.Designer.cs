@@ -183,6 +183,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MI {
+            get {
+                object obj = ResourceManager.GetObject("MI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MyCal_Login {
             get {
                 object obj = ResourceManager.GetObject("MyCal Login", resourceCulture);
@@ -206,6 +216,26 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap register {
             get {
                 object obj = ResourceManager.GetObject("register", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap workouts {
+            get {
+                object obj = ResourceManager.GetObject("workouts", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wrkouts {
+            get {
+                object obj = ResourceManager.GetObject("wrkouts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

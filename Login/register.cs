@@ -43,7 +43,7 @@ namespace Login
             else if (txtPass.Text == txtconfPass.Text)
             {
                 con.Open();
-                string register = "INSERT INTO tbl_users VALUES ('" + txtName.Text + "','" + txtEmail.Text + "','" + txtPass.Text + "')";
+                string register = "INSERT INTO tbl_users VALUES ('" + txtEmail.Text + "','" + txtPass.Text + "','" + txtName.Text + "', '" + txtweight.Text + "', '" + txtgoalweight.Text + "' )";
                 cmd = new OleDbCommand(register, con);
                 cmd.ExecuteNonQuery();
                 con.Close();

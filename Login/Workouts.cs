@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class MainInterface : Form
+    public partial class Workouts : Form
     {
-        public MainInterface()
+        public Workouts()
         {
             InitializeComponent();
-
-        }
-
-        private void btnWorkouts_Click(object sender, EventArgs e)
-        {
-            new Workouts().Show();
-            this.Hide();
         }
     }
 }
