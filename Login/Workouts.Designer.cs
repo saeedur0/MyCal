@@ -45,7 +45,7 @@
             this.mycalbuttons1.FlatAppearance.BorderSize = 0;
             this.mycalbuttons1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mycalbuttons1.ForeColor = System.Drawing.Color.Transparent;
-            this.mycalbuttons1.Location = new System.Drawing.Point(267, 177);
+            this.mycalbuttons1.Location = new System.Drawing.Point(443, 302);
             this.mycalbuttons1.Name = "mycalbuttons1";
             this.mycalbuttons1.Size = new System.Drawing.Size(150, 40);
             this.mycalbuttons1.TabIndex = 0;
