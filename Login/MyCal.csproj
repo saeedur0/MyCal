@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cardio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cardio.Designer.cs">
+      <DependentUpon>cardio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,12 +82,21 @@
     <Compile Include="splashscreen.Designer.cs">
       <DependentUpon>splashscreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="strength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="strength.Designer.cs">
+      <DependentUpon>strength.cs</DependentUpon>
+    </Compile>
     <Compile Include="Workouts.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Workouts.Designer.cs">
       <DependentUpon>Workouts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="cardio.resx">
+      <DependentUpon>cardio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="splashscreen.resx">
       <DependentUpon>splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strength.resx">
+      <DependentUpon>strength.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Workouts.resx">
       <DependentUpon>Workouts.cs</DependentUpon>
@@ -173,6 +191,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\wrkouts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strength.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardio.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

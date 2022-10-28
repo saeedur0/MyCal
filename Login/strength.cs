@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Login
 {
-    public partial class Workouts : Form
+    public partial class strength : Form
     {
-        public Workouts()
+        public strength()
         {
             InitializeComponent();
-
             this.TopMost = true;
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
@@ -23,19 +22,7 @@ namespace Login
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            new MainInterface().Show();
-            this.Hide();
-        }
-
-        private void btncardio_Click(object sender, EventArgs e)
-        {
-            new cardio().Show();
-            this.Hide();
-        }
-
-        private void btnstrength_Click(object sender, EventArgs e)
-        {
-            new strength().Show();
+            new Workouts().Show();
             this.Hide();
         }
     }

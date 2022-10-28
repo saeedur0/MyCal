@@ -124,8 +124,14 @@
   <data name="register" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login_input2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_input2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrow--left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow--left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrkouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrkouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyCal Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyCal Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="akar-icons_person1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\akar-icons_person1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,17 +148,17 @@
   <data name="login_input3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login_input3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="login_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login_input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow--left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow--left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="workouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\workouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MyCal Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MyCal Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login_input2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_input2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LoginFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LoginFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,7 +175,7 @@
   <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wrkouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wrkouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cardio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
