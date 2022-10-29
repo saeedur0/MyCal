@@ -198,5 +198,29 @@
   <ItemGroup>
     <None Include="Resources\cardio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running-running-man.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burpees.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jj.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sj.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jr.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

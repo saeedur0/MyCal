@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,15 +16,24 @@ namespace Login
         public cardio()
         {
             InitializeComponent();
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+
         }
 
         private void backbtn_Click(object sender, EventArgs e)
         {
             new Workouts().Show();
             this.Hide();
+        }
+
+        private void backbtn_Click_1(object sender, EventArgs e)
+        {
+            new Workouts().Show();
+            this.Hide();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

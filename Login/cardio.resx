@@ -117,6 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>While jogging also helps burn calories, experts recommend sprinting as the best form of cardio for maintaining a healthy weight and staying in shape. Studies have shown you can burn 200 calories in just two and a half minutes of high impact sprinting.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>The burpee, a squat thrust with an additional stand between repetitions, is a full body exercise used in strength and cardio training. You do not need any equipment or a lot of space, making them a great cardio workout at home. To do a burpee, alternate between a plank position and jumping forward in the air. Make sure that your hands are flat on the ground and your back straight. In just 10 minutes, you can burn more than 100 calories.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>A mountain climber is basically a plank where you run on the spot. If you value efficient moves in your workouts, mountain climbers are a perfect fit. Mountain climbers are a killer exercise that get your heart rate up fast while also firing nearly every muscle group in the body.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Similar to burpees, doing jumping jacks for 10 minutes straight can burn around 100 calories. You can easily integrate jumping jacks into a circuit training that includes some of the other exercises on this page, such as burpees, jumping rope and squat jumps. With no equipment necessary, you can perform jumping jacks anywhere at any time.</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>As their name implies, you start out in a squat and then jump up, trying to get as high as possible, and then land back in the squat. It is high impact, especially on your knees, so care is needed when you are a beginner or if you are suffering a knee injury.
+</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>Jumping rope not only improves coordination and cognitive function, but the intensity of this workout elevates your heart rate, helping you burn about 1,300 calories per hour. On top of that it proper jump rope form involves moving from the balls of your feet, and that helps develop good footwork and agility. This benefit of jump rope translates especially well to sports where you have to change direction very quickly.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

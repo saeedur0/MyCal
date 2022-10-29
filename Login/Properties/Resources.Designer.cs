@@ -103,6 +103,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap burpees {
+            get {
+                object obj = ResourceManager.GetObject("burpees", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap carbon_password {
             get {
                 object obj = ResourceManager.GetObject("carbon_password", resourceCulture);
@@ -116,6 +126,46 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap cardio {
             get {
                 object obj = ResourceManager.GetObject("cardio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_com_gif_maker {
+            get {
+                object obj = ResourceManager.GetObject("ezgif.com-gif-maker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif1 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jj {
+            get {
+                object obj = ResourceManager.GetObject("jj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jr {
+            get {
+                object obj = ResourceManager.GetObject("jr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +243,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mc {
+            get {
+                object obj = ResourceManager.GetObject("mc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MI {
             get {
                 object obj = ResourceManager.GetObject("MI", resourceCulture);
@@ -226,6 +286,26 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap register {
             get {
                 object obj = ResourceManager.GetObject("register", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap running_running_man {
+            get {
+                object obj = ResourceManager.GetObject("running-running-man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sj {
+            get {
+                object obj = ResourceManager.GetObject("sj", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

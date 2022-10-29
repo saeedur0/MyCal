@@ -16,9 +16,7 @@ namespace Login
         {
             InitializeComponent();
 
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+            
         }
 
         private void backbtn_Click(object sender, EventArgs e)

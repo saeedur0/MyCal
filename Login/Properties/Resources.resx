@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="carbon_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carbon_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="register" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow--left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow--left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wrkouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wrkouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MyCal Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MyCal Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="akar-icons_person1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\akar-icons_person1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MyCal Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyCal Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="akar-icons_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\akar-icons_person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jj.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cardio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cardio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carbon_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carbon_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_input2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_input2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,37 +145,61 @@
   <data name="login_input1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login_input1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login_input3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_input3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="strength" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\strength.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="workouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\workouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_input2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_input2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoginFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoginFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MyCal Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MyCal Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MI" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cardio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cardio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wrkouts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrkouts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-gif-maker1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="burpees" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\burpees.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="running-running-man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\running-running-man.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="akar-icons_person1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akar-icons_person1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow--left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow--left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sj.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyCal Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyCal Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_input3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_input3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jr.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
