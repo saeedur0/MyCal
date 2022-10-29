@@ -117,6 +117,67 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Push Up
+
+1. Place your hands firmly on the ground, directly under shoulders.
+2. Flatten your back so your entire body is straight and slowly lower your body.
+3. Draw shoulder blades back and down, keeping elbows tucked close to your body.
+4. Exhale as you push back to the starting position.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>Incline Pushup
+
+1. Stand facing bench or sturdy elevated platform.
+2. Place hands on edge of bench or platform, slightly wider than shoulder width.
+3. Slowly lower your body until your chest almost touches the bench.
+4. Push body up until arms are extended.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>Elevated Pike Press
+
+1. Use a bench or an object to elevate your feet.
+2. Lower your head towards the floor by bending your elbows
+3. Push through your hands and return to the starting pike position.
+4. Repeat</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>Decline push up
+
+1. Use a bench to elevate your feet.
+2. Put your hands slightly wider than shoulder-width.
+3. Slowly lower your body until your chest almost touches the ground
+4. Raise your body until you almost lock your elbows.</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>Seated Rear Delt Fly
+
+1. With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.
+2. With bent elbows, raise your arms up to shoulder level, pausing at the at the end of the motion.
+3. Slowly lower your arms back to starting position.</value>
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>Forward Lunge
+
+1. Step forward with one leg.
+2. Lower your body until your rear knee nearly touches the ground.
+3. Ensure you remain upright, and your front knee stay above the front foot.
+4. Push off the floor with your front foot until you return to the starting position. Switch legs.</value>
+  </data>
+  <data name="richTextBox8.Text" xml:space="preserve">
+    <value>Barbell Squat
+
+1. Stand with your feet shoulder-width apart. Maintain the natural arch in your back, squeezing your shoulder blades and raising your chest.
+2. Grip the bar across your shoulders and support it on your upper back. Unwrack the bar by straightening your legs, and take a step back.
+3. Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.
+4. Raise the bar back to starting position, lift with your legs and exhale at the top.</value>
+  </data>
+  <data name="richTextBox9.Text" xml:space="preserve">
+    <value>Leg Extension
+
+1. Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90 degree angle at the starting position.
+2. Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

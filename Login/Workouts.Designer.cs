@@ -43,7 +43,7 @@
             this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbtn.ForeColor = System.Drawing.Color.White;
-            this.backbtn.Location = new System.Drawing.Point(2, 707);
+            this.backbtn.Location = new System.Drawing.Point(12, 435);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(40, 40);
             this.backbtn.TabIndex = 13;

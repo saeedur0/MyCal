@@ -63,6 +63,36 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _190 {
+            get {
+                object obj = ResourceManager.GetObject("190", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _320 {
+            get {
+                object obj = ResourceManager.GetObject("320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _320x1900 {
+            get {
+                object obj = ResourceManager.GetObject("320x1900", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap akar_icons_person {
             get {
                 object obj = ResourceManager.GetObject("akar-icons_person", resourceCulture);
@@ -133,6 +163,26 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dips_front {
+            get {
+                object obj = ResourceManager.GetObject("dips front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ele {
+            get {
+                object obj = ResourceManager.GetObject("ele", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_com_gif_maker {
             get {
                 object obj = ResourceManager.GetObject("ezgif.com-gif-maker", resourceCulture);
@@ -146,6 +196,26 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap ezgif1 {
             get {
                 object obj = ResourceManager.GetObject("ezgif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif2 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inc {
+            get {
+                object obj = ResourceManager.GetObject("inc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,6 +353,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pushup {
+            get {
+                object obj = ResourceManager.GetObject("pushup", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap register {
             get {
                 object obj = ResourceManager.GetObject("register", resourceCulture);
@@ -296,6 +376,16 @@ namespace Login.Properties {
         internal static System.Drawing.Bitmap running_running_man {
             get {
                 object obj = ResourceManager.GetObject("running-running-man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seated {
+            get {
+                object obj = ResourceManager.GetObject("seated", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

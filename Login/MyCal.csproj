@@ -222,5 +222,32 @@
   <ItemGroup>
     <None Include="Resources\jr.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dips front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pushup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seated.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ele.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\320.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\190.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\320x1900.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
