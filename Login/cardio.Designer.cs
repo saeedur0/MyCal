@@ -69,7 +69,7 @@
             this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbtn.ForeColor = System.Drawing.Color.White;
-            this.backbtn.Location = new System.Drawing.Point(2, 708);
+            this.backbtn.Location = new System.Drawing.Point(-1, 567);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(40, 40);
             this.backbtn.TabIndex = 14;
@@ -92,7 +92,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(57, 443);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox1.Size = new System.Drawing.Size(200, 164);
             this.richTextBox1.TabIndex = 17;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -128,7 +128,7 @@
             this.richTextBox2.Location = new System.Drawing.Point(263, 443);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox2.Size = new System.Drawing.Size(200, 164);
             this.richTextBox2.TabIndex = 20;
             this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
@@ -160,7 +160,7 @@
             this.richTextBox3.Location = new System.Drawing.Point(469, 443);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox3.Size = new System.Drawing.Size(200, 164);
             this.richTextBox3.TabIndex = 23;
             this.richTextBox3.Text = resources.GetString("richTextBox3.Text");
             // 
@@ -192,7 +192,7 @@
             this.richTextBox4.Location = new System.Drawing.Point(675, 443);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox4.Size = new System.Drawing.Size(200, 164);
             this.richTextBox4.TabIndex = 26;
             this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
             // 
@@ -224,7 +224,7 @@
             this.richTextBox5.Location = new System.Drawing.Point(881, 443);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
-            this.richTextBox5.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox5.Size = new System.Drawing.Size(200, 164);
             this.richTextBox5.TabIndex = 29;
             this.richTextBox5.Text = resources.GetString("richTextBox5.Text");
             // 
@@ -243,7 +243,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(1150, 193);
+            this.label6.Location = new System.Drawing.Point(1139, 193);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 39);
             this.label6.TabIndex = 33;
@@ -253,17 +253,17 @@
             // 
             this.richTextBox6.BackColor = System.Drawing.Color.White;
             this.richTextBox6.ForeColor = System.Drawing.Color.Black;
-            this.richTextBox6.Location = new System.Drawing.Point(1098, 443);
+            this.richTextBox6.Location = new System.Drawing.Point(1087, 443);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(200, 78);
+            this.richTextBox6.Size = new System.Drawing.Size(200, 164);
             this.richTextBox6.TabIndex = 32;
             this.richTextBox6.Text = resources.GetString("richTextBox6.Text");
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Login.Properties.Resources.jr;
-            this.pictureBox6.Location = new System.Drawing.Point(1098, 235);
+            this.pictureBox6.Location = new System.Drawing.Point(1087, 235);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(200, 200);
             this.pictureBox6.TabIndex = 31;
@@ -311,7 +311,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(1149, 154);
+            this.label10.Location = new System.Drawing.Point(1138, 154);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(103, 39);
             this.label10.TabIndex = 37;
