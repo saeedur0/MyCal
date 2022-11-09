@@ -66,6 +66,7 @@
             this.Name = "MainInterface";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MainInterface";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }

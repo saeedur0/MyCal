@@ -69,6 +69,7 @@
             // fnamelbl
             // 
             this.fnamelbl.AutoSize = true;
+            this.fnamelbl.BackColor = System.Drawing.Color.Transparent;
             this.fnamelbl.ForeColor = System.Drawing.Color.White;
             this.fnamelbl.Location = new System.Drawing.Point(249, 141);
             this.fnamelbl.Name = "fnamelbl";
@@ -79,6 +80,7 @@
             // elbl
             // 
             this.elbl.AutoSize = true;
+            this.elbl.BackColor = System.Drawing.Color.Transparent;
             this.elbl.ForeColor = System.Drawing.Color.White;
             this.elbl.Location = new System.Drawing.Point(270, 167);
             this.elbl.Name = "elbl";
@@ -89,6 +91,7 @@
             // plbl
             // 
             this.plbl.AutoSize = true;
+            this.plbl.BackColor = System.Drawing.Color.Transparent;
             this.plbl.ForeColor = System.Drawing.Color.White;
             this.plbl.Location = new System.Drawing.Point(249, 193);
             this.plbl.Name = "plbl";
@@ -99,6 +102,7 @@
             // clbl
             // 
             this.clbl.AutoSize = true;
+            this.clbl.BackColor = System.Drawing.Color.Transparent;
             this.clbl.ForeColor = System.Drawing.Color.White;
             this.clbl.Location = new System.Drawing.Point(211, 220);
             this.clbl.Name = "clbl";
