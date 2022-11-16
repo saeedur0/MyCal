@@ -56,7 +56,7 @@
             // txtEmail
             // 
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.Location = new System.Drawing.Point(309, 160);
+            this.txtEmail.Location = new System.Drawing.Point(403, 144);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(189, 20);
             this.txtEmail.TabIndex = 1;
@@ -64,7 +64,7 @@
             // txtName
             // 
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtName.Location = new System.Drawing.Point(309, 134);
+            this.txtName.Location = new System.Drawing.Point(208, 144);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(189, 20);
             this.txtName.TabIndex = 3;
@@ -72,7 +72,7 @@
             // txtPass
             // 
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPass.Location = new System.Drawing.Point(309, 186);
+            this.txtPass.Location = new System.Drawing.Point(208, 190);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(189, 20);
             this.txtPass.TabIndex = 4;
@@ -82,7 +82,7 @@
             this.fnamelbl.AutoSize = true;
             this.fnamelbl.BackColor = System.Drawing.Color.Transparent;
             this.fnamelbl.ForeColor = System.Drawing.Color.White;
-            this.fnamelbl.Location = new System.Drawing.Point(249, 141);
+            this.fnamelbl.Location = new System.Drawing.Point(273, 128);
             this.fnamelbl.Name = "fnamelbl";
             this.fnamelbl.Size = new System.Drawing.Size(54, 13);
             this.fnamelbl.TabIndex = 5;
@@ -93,7 +93,7 @@
             this.elbl.AutoSize = true;
             this.elbl.BackColor = System.Drawing.Color.Transparent;
             this.elbl.ForeColor = System.Drawing.Color.White;
-            this.elbl.Location = new System.Drawing.Point(270, 167);
+            this.elbl.Location = new System.Drawing.Point(485, 128);
             this.elbl.Name = "elbl";
             this.elbl.Size = new System.Drawing.Size(32, 13);
             this.elbl.TabIndex = 6;
@@ -104,7 +104,7 @@
             this.plbl.AutoSize = true;
             this.plbl.BackColor = System.Drawing.Color.Transparent;
             this.plbl.ForeColor = System.Drawing.Color.White;
-            this.plbl.Location = new System.Drawing.Point(249, 193);
+            this.plbl.Location = new System.Drawing.Point(278, 174);
             this.plbl.Name = "plbl";
             this.plbl.Size = new System.Drawing.Size(53, 13);
             this.plbl.TabIndex = 7;
@@ -115,7 +115,7 @@
             this.clbl.AutoSize = true;
             this.clbl.BackColor = System.Drawing.Color.Transparent;
             this.clbl.ForeColor = System.Drawing.Color.White;
-            this.clbl.Location = new System.Drawing.Point(211, 220);
+            this.clbl.Location = new System.Drawing.Point(451, 174);
             this.clbl.Name = "clbl";
             this.clbl.Size = new System.Drawing.Size(91, 13);
             this.clbl.TabIndex = 11;
@@ -124,7 +124,7 @@
             // txtconfPass
             // 
             this.txtconfPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtconfPass.Location = new System.Drawing.Point(308, 213);
+            this.txtconfPass.Location = new System.Drawing.Point(403, 190);
             this.txtconfPass.Name = "txtconfPass";
             this.txtconfPass.Size = new System.Drawing.Size(190, 20);
             this.txtconfPass.TabIndex = 10;
@@ -150,7 +150,7 @@
             this.wlbl.AutoSize = true;
             this.wlbl.BackColor = System.Drawing.Color.Transparent;
             this.wlbl.ForeColor = System.Drawing.Color.White;
-            this.wlbl.Location = new System.Drawing.Point(206, 245);
+            this.wlbl.Location = new System.Drawing.Point(257, 221);
             this.wlbl.Name = "wlbl";
             this.wlbl.Size = new System.Drawing.Size(96, 13);
             this.wlbl.TabIndex = 15;
@@ -159,7 +159,7 @@
             // txtweight
             // 
             this.txtweight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtweight.Location = new System.Drawing.Point(308, 239);
+            this.txtweight.Location = new System.Drawing.Point(208, 237);
             this.txtweight.Name = "txtweight";
             this.txtweight.Size = new System.Drawing.Size(190, 20);
             this.txtweight.TabIndex = 14;
@@ -169,7 +169,7 @@
             this.gwlbl.AutoSize = true;
             this.gwlbl.BackColor = System.Drawing.Color.Transparent;
             this.gwlbl.ForeColor = System.Drawing.Color.White;
-            this.gwlbl.Location = new System.Drawing.Point(181, 273);
+            this.gwlbl.Location = new System.Drawing.Point(439, 221);
             this.gwlbl.Name = "gwlbl";
             this.gwlbl.Size = new System.Drawing.Size(121, 13);
             this.gwlbl.TabIndex = 17;
@@ -178,7 +178,7 @@
             // txtgoalweight
             // 
             this.txtgoalweight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtgoalweight.Location = new System.Drawing.Point(308, 266);
+            this.txtgoalweight.Location = new System.Drawing.Point(402, 237);
             this.txtgoalweight.Name = "txtgoalweight";
             this.txtgoalweight.Size = new System.Drawing.Size(190, 20);
             this.txtgoalweight.TabIndex = 16;
@@ -188,7 +188,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(264, 300);
+            this.label1.Location = new System.Drawing.Point(185, 300);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 18;
@@ -199,7 +199,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(261, 327);
+            this.label2.Location = new System.Drawing.Point(381, 300);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 19;
@@ -210,7 +210,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(232, 354);
+            this.label3.Location = new System.Drawing.Point(566, 300);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 20;
@@ -241,6 +241,7 @@
             // 
             // cboHeight
             // 
+            this.cboHeight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cboHeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboHeight.FormattingEnabled = true;
             this.cboHeight.Items.AddRange(new object[] {
@@ -270,28 +271,30 @@
             "6 ft 10\"",
             "6 ft 11\"",
             "7 ft 0\""});
-            this.cboHeight.Location = new System.Drawing.Point(308, 292);
+            this.cboHeight.Location = new System.Drawing.Point(111, 276);
             this.cboHeight.Name = "cboHeight";
             this.cboHeight.Size = new System.Drawing.Size(190, 21);
             this.cboHeight.TabIndex = 21;
             // 
             // comboBox2
             // 
+            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(308, 346);
+            this.comboBox2.Location = new System.Drawing.Point(503, 276);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(190, 21);
             this.comboBox2.TabIndex = 22;
             // 
             // comboBox3
             // 
+            this.comboBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox3.Location = new System.Drawing.Point(308, 319);
+            this.comboBox3.Location = new System.Drawing.Point(307, 276);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(190, 21);
             this.comboBox3.TabIndex = 23;
@@ -301,7 +304,7 @@
             this.pbInfoAc.BackColor = System.Drawing.Color.Transparent;
             this.pbInfoAc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbInfoAc.Image = global::Login.Properties.Resources.surface1info;
-            this.pbInfoAc.Location = new System.Drawing.Point(503, 348);
+            this.pbInfoAc.Location = new System.Drawing.Point(695, 277);
             this.pbInfoAc.Name = "pbInfoAc";
             this.pbInfoAc.Size = new System.Drawing.Size(17, 17);
             this.pbInfoAc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;

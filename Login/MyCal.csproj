@@ -261,5 +261,11 @@
   <ItemGroup>
     <None Include="Resources\surface1info.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker4.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
