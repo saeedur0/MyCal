@@ -53,6 +53,12 @@
     <Compile Include="cardio.Designer.cs">
       <DependentUpon>cardio.cs</DependentUpon>
     </Compile>
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <EmbeddedResource Include="cardio.resx">
       <DependentUpon>cardio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -248,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\320x1900.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surface1info.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,9 @@ namespace Login
             }
         }
 
-       
+        private void pbInfoAc_Click(object sender, EventArgs e)
+        {
+            new info().Show();
+        }
     }
 }

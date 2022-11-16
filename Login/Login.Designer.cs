@@ -94,6 +94,7 @@
             // emailBox1
             // 
             this.emailBox1.BackColor = System.Drawing.Color.White;
+            this.emailBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.emailBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.emailBox1.Location = new System.Drawing.Point(251, 144);
@@ -118,6 +119,7 @@
             // 
             // passwordBox1
             // 
+            this.passwordBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.passwordBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordBox1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.passwordBox1.Location = new System.Drawing.Point(251, 206);
@@ -132,6 +134,7 @@
             // memberlabel
             // 
             this.memberlabel.AutoSize = true;
+            this.memberlabel.BackColor = System.Drawing.Color.Transparent;
             this.memberlabel.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memberlabel.ForeColor = System.Drawing.Color.White;
             this.memberlabel.Location = new System.Drawing.Point(265, 367);
@@ -144,10 +147,12 @@
             // 
             this.registerlbl.ActiveLinkColor = System.Drawing.Color.White;
             this.registerlbl.AutoSize = true;
+            this.registerlbl.BackColor = System.Drawing.Color.Transparent;
+            this.registerlbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.registerlbl.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(138)))), ((int)(((byte)(188)))));
             this.registerlbl.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerlbl.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(138)))), ((int)(((byte)(188)))));
-            this.registerlbl.Location = new System.Drawing.Point(431, 367);
+            this.registerlbl.Location = new System.Drawing.Point(433, 367);
             this.registerlbl.Name = "registerlbl";
             this.registerlbl.Size = new System.Drawing.Size(85, 25);
             this.registerlbl.TabIndex = 10;
@@ -165,6 +170,7 @@
             this.btnLogin.BorderRadius1 = 20;
             this.btnLogin.BorderSize = 3;
             this.btnLogin.BorderSize1 = 3;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));

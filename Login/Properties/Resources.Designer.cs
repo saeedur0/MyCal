@@ -413,6 +413,16 @@ namespace Login.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap surface1info {
+            get {
+                object obj = ResourceManager.GetObject("surface1info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap workouts {
             get {
                 object obj = ResourceManager.GetObject("workouts", resourceCulture);

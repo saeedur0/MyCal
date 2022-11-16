@@ -42,14 +42,20 @@
             this.txtweight = new System.Windows.Forms.TextBox();
             this.gwlbl = new System.Windows.Forms.Label();
             this.txtgoalweight = new System.Windows.Forms.TextBox();
-            this.btnJoin3 = new MyCal.mycalbuttons();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnJoin3 = new MyCal.mycalbuttons();
+            this.cboHeight = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.pbInfoAc = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmail
             // 
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmail.Location = new System.Drawing.Point(309, 160);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(189, 20);
@@ -57,6 +63,7 @@
             // 
             // txtName
             // 
+            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtName.Location = new System.Drawing.Point(309, 134);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(189, 20);
@@ -64,6 +71,7 @@
             // 
             // txtPass
             // 
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPass.Location = new System.Drawing.Point(309, 186);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(189, 20);
@@ -115,6 +123,7 @@
             // 
             // txtconfPass
             // 
+            this.txtconfPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtconfPass.Location = new System.Drawing.Point(308, 213);
             this.txtconfPass.Name = "txtconfPass";
             this.txtconfPass.Size = new System.Drawing.Size(190, 20);
@@ -149,6 +158,7 @@
             // 
             // txtweight
             // 
+            this.txtweight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtweight.Location = new System.Drawing.Point(308, 239);
             this.txtweight.Name = "txtweight";
             this.txtweight.Size = new System.Drawing.Size(190, 20);
@@ -167,10 +177,44 @@
             // 
             // txtgoalweight
             // 
+            this.txtgoalweight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtgoalweight.Location = new System.Drawing.Point(308, 266);
             this.txtgoalweight.Name = "txtgoalweight";
             this.txtgoalweight.Size = new System.Drawing.Size(190, 20);
             this.txtgoalweight.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(264, 300);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Height";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(261, 327);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Gender";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(232, 354);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Activity Level";
             // 
             // btnJoin3
             // 
@@ -182,6 +226,7 @@
             this.btnJoin3.BorderRadius1 = 20;
             this.btnJoin3.BorderSize = 3;
             this.btnJoin3.BorderSize1 = 3;
+            this.btnJoin3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnJoin3.FlatAppearance.BorderSize = 0;
             this.btnJoin3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJoin3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
@@ -194,38 +239,75 @@
             this.btnJoin3.UseVisualStyleBackColor = false;
             this.btnJoin3.Click += new System.EventHandler(this.btnJoin3_Click_1);
             // 
-            // label1
+            // cboHeight
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(249, 297);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Height";
+            this.cboHeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboHeight.FormattingEnabled = true;
+            this.cboHeight.Items.AddRange(new object[] {
+            "4 ft 11\"",
+            "5 ft 0\"",
+            "5 ft 1\"",
+            "5 ft 2\"",
+            "5 ft 3\"",
+            "5 ft 4\"",
+            "5 ft 5\"",
+            "5 ft 6\"",
+            "5 ft 7\"",
+            "5 ft 8\"",
+            "5 ft 9\"",
+            "5 ft 10\"",
+            "5 ft 11\"",
+            "6 ft 0\"",
+            "6 ft 1\"",
+            "6 ft 2\"",
+            "6 ft 3\"",
+            "6 ft 4\"",
+            "6 ft 5\"",
+            "6 ft 6\"",
+            "6 ft 7\"",
+            "6 ft 8\"",
+            "6 ft 9\"",
+            "6 ft 10\"",
+            "6 ft 11\"",
+            "7 ft 0\""});
+            this.cboHeight.Location = new System.Drawing.Point(308, 292);
+            this.cboHeight.Name = "cboHeight";
+            this.cboHeight.Size = new System.Drawing.Size(190, 21);
+            this.cboHeight.TabIndex = 21;
             // 
-            // label2
+            // comboBox2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(211, 321);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Gender";
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(308, 346);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(190, 21);
+            this.comboBox2.TabIndex = 22;
             // 
-            // label3
+            // comboBox3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(296, 353);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Activity Level";
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.comboBox3.Location = new System.Drawing.Point(308, 319);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(190, 21);
+            this.comboBox3.TabIndex = 23;
+            // 
+            // pbInfoAc
+            // 
+            this.pbInfoAc.BackColor = System.Drawing.Color.Transparent;
+            this.pbInfoAc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbInfoAc.Image = global::Login.Properties.Resources.surface1info;
+            this.pbInfoAc.Location = new System.Drawing.Point(503, 348);
+            this.pbInfoAc.Name = "pbInfoAc";
+            this.pbInfoAc.Size = new System.Drawing.Size(17, 17);
+            this.pbInfoAc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbInfoAc.TabIndex = 24;
+            this.pbInfoAc.TabStop = false;
+            this.pbInfoAc.Click += new System.EventHandler(this.pbInfoAc_Click);
             // 
             // register
             // 
@@ -233,6 +315,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.register;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.pbInfoAc);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboHeight);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -255,6 +341,7 @@
             this.Name = "register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "register";
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +365,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cboHeight;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.PictureBox pbInfoAc;
     }
 }
