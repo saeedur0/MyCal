@@ -16,5 +16,12 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void closebtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+       
     }
 }
