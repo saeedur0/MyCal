@@ -45,11 +45,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnJoin3 = new MyCal.mycalbuttons();
             this.cboHeight = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.pbInfoAc = new System.Windows.Forms.PictureBox();
+            this.btnJoin3 = new MyCal.mycalbuttons();
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -216,29 +216,6 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "Activity Level";
             // 
-            // btnJoin3
-            // 
-            this.btnJoin3.BackColor = System.Drawing.Color.Transparent;
-            this.btnJoin3.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnJoin3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.btnJoin3.BorderColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.btnJoin3.BorderRadius = 20;
-            this.btnJoin3.BorderRadius1 = 20;
-            this.btnJoin3.BorderSize = 3;
-            this.btnJoin3.BorderSize1 = 3;
-            this.btnJoin3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnJoin3.FlatAppearance.BorderSize = 0;
-            this.btnJoin3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJoin3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.btnJoin3.Location = new System.Drawing.Point(322, 391);
-            this.btnJoin3.Name = "btnJoin3";
-            this.btnJoin3.Size = new System.Drawing.Size(150, 40);
-            this.btnJoin3.TabIndex = 13;
-            this.btnJoin3.Text = "Join MyCal";
-            this.btnJoin3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
-            this.btnJoin3.UseVisualStyleBackColor = false;
-            this.btnJoin3.Click += new System.EventHandler(this.btnJoin3_Click_1);
-            // 
             // cboHeight
             // 
             this.cboHeight.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -281,6 +258,12 @@
             this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
             this.comboBox2.Location = new System.Drawing.Point(503, 276);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(190, 21);
@@ -311,6 +294,29 @@
             this.pbInfoAc.TabIndex = 24;
             this.pbInfoAc.TabStop = false;
             this.pbInfoAc.Click += new System.EventHandler(this.pbInfoAc_Click);
+            // 
+            // btnJoin3
+            // 
+            this.btnJoin3.BackColor = System.Drawing.Color.Transparent;
+            this.btnJoin3.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnJoin3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnJoin3.BorderColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnJoin3.BorderRadius = 20;
+            this.btnJoin3.BorderRadius1 = 20;
+            this.btnJoin3.BorderSize = 3;
+            this.btnJoin3.BorderSize1 = 3;
+            this.btnJoin3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnJoin3.FlatAppearance.BorderSize = 0;
+            this.btnJoin3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJoin3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnJoin3.Location = new System.Drawing.Point(322, 391);
+            this.btnJoin3.Name = "btnJoin3";
+            this.btnJoin3.Size = new System.Drawing.Size(150, 40);
+            this.btnJoin3.TabIndex = 13;
+            this.btnJoin3.Text = "Join MyCal";
+            this.btnJoin3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(255)))), ((int)(((byte)(52)))));
+            this.btnJoin3.UseVisualStyleBackColor = false;
+            this.btnJoin3.Click += new System.EventHandler(this.btnJoin3_Click_1);
             // 
             // register
             // 
