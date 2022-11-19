@@ -46,8 +46,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cboHeight = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cboAct = new System.Windows.Forms.ComboBox();
+            this.cboGender = new System.Windows.Forms.ComboBox();
             this.pbInfoAc = new System.Windows.Forms.PictureBox();
             this.btnJoin3 = new MyCal.mycalbuttons();
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
@@ -253,34 +253,34 @@
             this.cboHeight.Size = new System.Drawing.Size(190, 21);
             this.cboHeight.TabIndex = 21;
             // 
-            // comboBox2
+            // cboAct
             // 
-            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboAct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboAct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboAct.FormattingEnabled = true;
+            this.cboAct.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5"});
-            this.comboBox2.Location = new System.Drawing.Point(503, 276);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(190, 21);
-            this.comboBox2.TabIndex = 22;
+            this.cboAct.Location = new System.Drawing.Point(503, 276);
+            this.cboAct.Name = "cboAct";
+            this.cboAct.Size = new System.Drawing.Size(190, 21);
+            this.cboAct.TabIndex = 22;
             // 
-            // comboBox3
+            // cboGender
             // 
-            this.comboBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboGender.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboGender.FormattingEnabled = true;
+            this.cboGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox3.Location = new System.Drawing.Point(307, 276);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(190, 21);
-            this.comboBox3.TabIndex = 23;
+            this.cboGender.Location = new System.Drawing.Point(307, 276);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(190, 21);
+            this.cboGender.TabIndex = 23;
             // 
             // pbInfoAc
             // 
@@ -325,8 +325,8 @@
             this.BackgroundImage = global::Login.Properties.Resources.register;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.pbInfoAc);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cboGender);
+            this.Controls.Add(this.cboAct);
             this.Controls.Add(this.cboHeight);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -375,8 +375,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cboHeight;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cboAct;
+        private System.Windows.Forms.ComboBox cboGender;
         private System.Windows.Forms.PictureBox pbInfoAc;
     }
 }
