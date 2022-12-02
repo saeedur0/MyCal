@@ -43,8 +43,22 @@ namespace Login
             else if (txtPass.Text == txtconfPass.Text)
             {
                 con.Open();
-                string register = "INSERT INTO tbl_users VALUES ('" + txtEmail.Text + "','" + txtPass.Text + "','" + txtName.Text + "', '" + txtweight.Text + "', '" + txtgoalweight.Text + "' )";
+                
+                string register = "INSERT INTO tbl_users (Email, Password, Name, Weight, GoalWeight, Height, Gender, ActivityLevel) VALUES (?,?,?,?,?,?,?,?)";
+
                 cmd = new OleDbCommand(register, con);
+
+                cmd.Parameters.AddWithValue("Email", txtEmail.Text);
+                cmd.Parameters.AddWithValue("Password", txtPass.Text);
+                cmd.Parameters.AddWithValue("Name", txtName.Text);
+                cmd.Parameters.AddWithValue("Weight", txtweight.Text);
+                cmd.Parameters.AddWithValue("GoalWeight", txtgoalweight.Text);
+                cmd.Parameters.AddWithValue("Height", cboHeight.GetItemText(cboHeight.SelectedItem));
+                cmd.Parameters.AddWithValue("Gender", cboGender.GetItemText(cboGender.SelectedItem));
+                cmd.Parameters.AddWithValue("ActivityLevel", cboAct.GetItemText(cboAct.SelectedItem));
+
+
+                
                 cmd.ExecuteNonQuery();
                 con.Close();
 
