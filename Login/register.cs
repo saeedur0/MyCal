@@ -70,7 +70,7 @@ namespace Login
 
         private void pbInfoH_Click(object sender, EventArgs e)
         {
-
+            new height().Show();
         }
     }
 }
