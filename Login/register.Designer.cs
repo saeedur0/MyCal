@@ -45,12 +45,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cboHeight = new System.Windows.Forms.ComboBox();
-            this.cboAct = new System.Windows.Forms.ComboBox();
-            this.cboGender = new System.Windows.Forms.ComboBox();
             this.pbInfoAc = new System.Windows.Forms.PictureBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
+            this.txtGender = new System.Windows.Forms.TextBox();
+            this.txtAct = new System.Windows.Forms.TextBox();
             this.btnJoin3 = new MyCal.mycalbuttons();
+            this.pbInfoH = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoH)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmail
@@ -216,72 +218,6 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "Activity Level";
             // 
-            // cboHeight
-            // 
-            this.cboHeight.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboHeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboHeight.FormattingEnabled = true;
-            this.cboHeight.Items.AddRange(new object[] {
-            "4.11",
-            "5.0",
-            "5.1",
-            "5.2",
-            "5.3",
-            "5.4",
-            "5.5",
-            "5.6",
-            "5.7",
-            "5.8",
-            "5.9",
-            "5.10",
-            "5.11",
-            "6.0",
-            "6.1",
-            "6.2",
-            "6.3",
-            "6.4",
-            "6.5",
-            "6.6",
-            "6.7",
-            "6.8",
-            "6.9",
-            "6.10",
-            "6.11",
-            "7.0"});
-            this.cboHeight.Location = new System.Drawing.Point(111, 276);
-            this.cboHeight.Name = "cboHeight";
-            this.cboHeight.Size = new System.Drawing.Size(190, 21);
-            this.cboHeight.TabIndex = 21;
-            // 
-            // cboAct
-            // 
-            this.cboAct.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboAct.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboAct.FormattingEnabled = true;
-            this.cboAct.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.cboAct.Location = new System.Drawing.Point(503, 276);
-            this.cboAct.Name = "cboAct";
-            this.cboAct.Size = new System.Drawing.Size(190, 21);
-            this.cboAct.TabIndex = 22;
-            // 
-            // cboGender
-            // 
-            this.cboGender.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboGender.FormattingEnabled = true;
-            this.cboGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.cboGender.Location = new System.Drawing.Point(307, 276);
-            this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(190, 21);
-            this.cboGender.TabIndex = 23;
-            // 
             // pbInfoAc
             // 
             this.pbInfoAc.BackColor = System.Drawing.Color.Transparent;
@@ -294,6 +230,30 @@
             this.pbInfoAc.TabIndex = 24;
             this.pbInfoAc.TabStop = false;
             this.pbInfoAc.Click += new System.EventHandler(this.pbInfoAc_Click);
+            // 
+            // txtHeight
+            // 
+            this.txtHeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHeight.Location = new System.Drawing.Point(111, 277);
+            this.txtHeight.Name = "txtHeight";
+            this.txtHeight.Size = new System.Drawing.Size(190, 20);
+            this.txtHeight.TabIndex = 25;
+            // 
+            // txtGender
+            // 
+            this.txtGender.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtGender.Location = new System.Drawing.Point(307, 277);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.Size = new System.Drawing.Size(190, 20);
+            this.txtGender.TabIndex = 26;
+            // 
+            // txtAct
+            // 
+            this.txtAct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAct.Location = new System.Drawing.Point(503, 277);
+            this.txtAct.Name = "txtAct";
+            this.txtAct.Size = new System.Drawing.Size(190, 20);
+            this.txtAct.TabIndex = 27;
             // 
             // btnJoin3
             // 
@@ -318,16 +278,30 @@
             this.btnJoin3.UseVisualStyleBackColor = false;
             this.btnJoin3.Click += new System.EventHandler(this.btnJoin3_Click_1);
             // 
+            // pbInfoH
+            // 
+            this.pbInfoH.BackColor = System.Drawing.Color.Transparent;
+            this.pbInfoH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbInfoH.Image = global::Login.Properties.Resources.surface1info;
+            this.pbInfoH.Location = new System.Drawing.Point(88, 280);
+            this.pbInfoH.Name = "pbInfoH";
+            this.pbInfoH.Size = new System.Drawing.Size(17, 17);
+            this.pbInfoH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbInfoH.TabIndex = 28;
+            this.pbInfoH.TabStop = false;
+            this.pbInfoH.Click += new System.EventHandler(this.pbInfoH_Click);
+            // 
             // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.register;
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.pbInfoH);
+            this.Controls.Add(this.txtAct);
+            this.Controls.Add(this.txtGender);
+            this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.pbInfoAc);
-            this.Controls.Add(this.cboGender);
-            this.Controls.Add(this.cboAct);
-            this.Controls.Add(this.cboHeight);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -351,6 +325,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "register";
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,9 +349,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cboHeight;
-        private System.Windows.Forms.ComboBox cboAct;
-        private System.Windows.Forms.ComboBox cboGender;
         private System.Windows.Forms.PictureBox pbInfoAc;
+        private System.Windows.Forms.TextBox txtHeight;
+        private System.Windows.Forms.TextBox txtGender;
+        private System.Windows.Forms.TextBox txtAct;
+        private System.Windows.Forms.PictureBox pbInfoH;
     }
 }
