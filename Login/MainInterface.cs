@@ -28,5 +28,11 @@ namespace Login
             new Workouts().Show();
             this.Hide();
         }
+
+        private void pbSettings_Click(object sender, EventArgs e)
+        {
+            new Settings().Show(); //The Settings form is showed to the user
+            this.Hide(); //The main interface form is closed
+        }
     }
 }

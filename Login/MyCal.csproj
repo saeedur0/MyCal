@@ -53,6 +53,12 @@
     <Compile Include="cardio.Designer.cs">
       <DependentUpon>cardio.cs</DependentUpon>
     </Compile>
+    <Compile Include="debugmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="debugmenu.Designer.cs">
+      <DependentUpon>debugmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="height.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="register.Designer.cs">
       <DependentUpon>register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
     <Compile Include="splashscreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +120,9 @@
     </Compile>
     <EmbeddedResource Include="cardio.resx">
       <DependentUpon>cardio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debugmenu.resx">
+      <DependentUpon>debugmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="height.resx">
       <DependentUpon>height.cs</DependentUpon>
@@ -133,6 +148,9 @@
     </Compile>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="splashscreen.resx">
       <DependentUpon>splashscreen.cs</DependentUpon>
@@ -275,6 +293,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings Cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

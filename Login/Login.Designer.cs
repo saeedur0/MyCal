@@ -38,11 +38,13 @@
             this.passwordBox1 = new System.Windows.Forms.TextBox();
             this.memberlabel = new System.Windows.Forms.Label();
             this.registerlbl = new System.Windows.Forms.LinkLabel();
+            this.pbDebug = new System.Windows.Forms.PictureBox();
             this.btnLogin = new MyCal.mycalbuttons();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDebug)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -160,6 +162,16 @@
             this.registerlbl.Text = "Register!";
             this.registerlbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerlbl_LinkClicked);
             // 
+            // pbDebug
+            // 
+            this.pbDebug.BackColor = System.Drawing.Color.Transparent;
+            this.pbDebug.Location = new System.Drawing.Point(-1, -1);
+            this.pbDebug.Name = "pbDebug";
+            this.pbDebug.Size = new System.Drawing.Size(20, 20);
+            this.pbDebug.TabIndex = 12;
+            this.pbDebug.TabStop = false;
+            this.pbDebug.Click += new System.EventHandler(this.pbDebug_Click);
+            // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
@@ -190,6 +202,7 @@
             this.BackgroundImage = global::Login.Properties.Resources.MyCal_Login1;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.ControlBox = false;
+            this.Controls.Add(this.pbDebug);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.registerlbl);
             this.Controls.Add(this.memberlabel);
@@ -209,6 +222,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emailicoBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDebug)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,6 +240,7 @@
         private System.Windows.Forms.Label memberlabel;
         private System.Windows.Forms.LinkLabel registerlbl;
         private MyCal.mycalbuttons btnLogin;
+        private System.Windows.Forms.PictureBox pbDebug;
     }
 }
 

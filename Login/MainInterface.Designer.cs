@@ -29,8 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainInterface));
+            this.pbSettings = new System.Windows.Forms.PictureBox();
             this.btnWorkouts = new MyCal.mycalbuttons();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
             this.SuspendLayout();
+            // 
+            // pbSettings
+            // 
+            this.pbSettings.BackColor = System.Drawing.Color.Transparent;
+            this.pbSettings.BackgroundImage = global::Login.Properties.Resources.Settings_Cog;
+            this.pbSettings.Location = new System.Drawing.Point(1280, 1);
+            this.pbSettings.Name = "pbSettings";
+            this.pbSettings.Size = new System.Drawing.Size(64, 64);
+            this.pbSettings.TabIndex = 1;
+            this.pbSettings.TabStop = false;
+            this.pbSettings.Click += new System.EventHandler(this.pbSettings_Click);
             // 
             // btnWorkouts
             // 
@@ -61,12 +74,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
             this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.Controls.Add(this.pbSettings);
             this.Controls.Add(this.btnWorkouts);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainInterface";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MainInterface";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -74,5 +89,6 @@
         #endregion
 
         private MyCal.mycalbuttons btnWorkouts;
+        private System.Windows.Forms.PictureBox pbSettings;
     }
 }
