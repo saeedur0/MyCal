@@ -38,6 +38,7 @@
             // 
             this.pbSettings.BackColor = System.Drawing.Color.Transparent;
             this.pbSettings.BackgroundImage = global::Login.Properties.Resources.Settings_Cog;
+            this.pbSettings.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbSettings.Location = new System.Drawing.Point(1280, 1);
             this.pbSettings.Name = "pbSettings";
             this.pbSettings.Size = new System.Drawing.Size(64, 64);
@@ -76,11 +77,11 @@
             this.ClientSize = new System.Drawing.Size(1344, 749);
             this.Controls.Add(this.pbSettings);
             this.Controls.Add(this.btnWorkouts);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainInterface";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainInterface";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
             this.ResumeLayout(false);
 

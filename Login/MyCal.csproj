@@ -53,11 +53,11 @@
     <Compile Include="cardio.Designer.cs">
       <DependentUpon>cardio.cs</DependentUpon>
     </Compile>
-    <Compile Include="debugmenu.cs">
+    <Compile Include="MyCal Debug Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="debugmenu.Designer.cs">
-      <DependentUpon>debugmenu.cs</DependentUpon>
+    <Compile Include="MyCal Debug Menu.Designer.cs">
+      <DependentUpon>MyCal Debug Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="height.cs">
       <SubType>Form</SubType>
@@ -121,8 +121,8 @@
     <EmbeddedResource Include="cardio.resx">
       <DependentUpon>cardio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="debugmenu.resx">
-      <DependentUpon>debugmenu.cs</DependentUpon>
+    <EmbeddedResource Include="MyCal Debug Menu.resx">
+      <DependentUpon>MyCal Debug Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="height.resx">
       <DependentUpon>height.cs</DependentUpon>
