@@ -236,7 +236,7 @@
             this.flowLayoutPanel1.Controls.Add(this.pictureBox51);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(58, 147);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1261, 568);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1277, 587);
             this.flowLayoutPanel1.TabIndex = 15;
             // 
             // label1
@@ -786,7 +786,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.strength;
-            this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.backbtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -102,7 +102,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.wrkouts;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.btncardio);
             this.Controls.Add(this.btnstrength);

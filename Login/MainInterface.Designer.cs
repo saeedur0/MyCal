@@ -74,7 +74,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
-            this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.pbSettings);
             this.Controls.Add(this.btnWorkouts);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

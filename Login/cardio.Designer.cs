@@ -322,7 +322,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.cardio;
-            this.ClientSize = new System.Drawing.Size(1344, 749);
+            this.ClientSize = new System.Drawing.Size(1360, 768);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
