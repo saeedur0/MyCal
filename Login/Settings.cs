@@ -8,18 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Login
 {
     public partial class Settings : Form
     {
-        OleDbConnection conn;
+        OleDbConnection conn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=mycal.accdb");
         OleDbCommand cmd;
-        OleDbDataAdapter adapter;
+        OleDbDataAdapter da = new OleDbDataAdapter();
+
+
+
         public Settings()
         {
             InitializeComponent();
+            
         }
+
+
 
         private void backbtn_Click(object sender, EventArgs e)
         {
@@ -38,6 +45,23 @@ namespace Login
 
         private void lblSave_Click(object sender, EventArgs e)
         {
+            string query = "UPDATE tbl_users SET [weight]=@weight, [goal weight]=@gw, [activity]=@act WHERE email=@email";
+
+            cmd = new OleDbCommand(query, conn);
+
+            conn.Open();
+            cmd.Parameters.AddWithValue("@weight", txtweight.Text);
+            cmd.Parameters.AddWithValue("@gw", txtgoalweight.Text);
+            cmd.Parameters.AddWithValue("@activity", txtAct.Text);
+            cmd.Parameters.AddWithValue("@email", txtEmail.Text);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            MessageBox.Show("Details Updated Successfully", "MyCal Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //fact is I couldnt've done it without chatgpt
+
+
+
 
         }
     }

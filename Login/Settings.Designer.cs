@@ -39,6 +39,8 @@
             this.lblSave = new System.Windows.Forms.Label();
             this.lblLogOff = new System.Windows.Forms.Label();
             this.btnWorkouts = new MyCal.mycalbuttons();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // backbtn
@@ -60,7 +62,7 @@
             // txtAct
             // 
             this.txtAct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtAct.Location = new System.Drawing.Point(582, 407);
+            this.txtAct.Location = new System.Drawing.Point(582, 400);
             this.txtAct.Name = "txtAct";
             this.txtAct.Size = new System.Drawing.Size(190, 20);
             this.txtAct.TabIndex = 37;
@@ -70,7 +72,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(643, 391);
+            this.label3.Location = new System.Drawing.Point(643, 384);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 34;
@@ -81,7 +83,7 @@
             this.gwlbl.AutoSize = true;
             this.gwlbl.BackColor = System.Drawing.Color.Transparent;
             this.gwlbl.ForeColor = System.Drawing.Color.White;
-            this.gwlbl.Location = new System.Drawing.Point(619, 344);
+            this.gwlbl.Location = new System.Drawing.Point(619, 341);
             this.gwlbl.Name = "gwlbl";
             this.gwlbl.Size = new System.Drawing.Size(121, 13);
             this.gwlbl.TabIndex = 31;
@@ -90,7 +92,7 @@
             // txtgoalweight
             // 
             this.txtgoalweight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtgoalweight.Location = new System.Drawing.Point(582, 360);
+            this.txtgoalweight.Location = new System.Drawing.Point(582, 357);
             this.txtgoalweight.Name = "txtgoalweight";
             this.txtgoalweight.Size = new System.Drawing.Size(190, 20);
             this.txtgoalweight.TabIndex = 30;
@@ -121,7 +123,7 @@
             this.lblSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSave.Font = new System.Drawing.Font("Yu Gothic UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSave.ForeColor = System.Drawing.Color.White;
-            this.lblSave.Location = new System.Drawing.Point(648, 430);
+            this.lblSave.Location = new System.Drawing.Point(648, 476);
             this.lblSave.Name = "lblSave";
             this.lblSave.Size = new System.Drawing.Size(65, 32);
             this.lblSave.TabIndex = 38;
@@ -135,7 +137,7 @@
             this.lblLogOff.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblLogOff.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogOff.ForeColor = System.Drawing.Color.White;
-            this.lblLogOff.Location = new System.Drawing.Point(614, 525);
+            this.lblLogOff.Location = new System.Drawing.Point(614, 555);
             this.lblLogOff.Name = "lblLogOff";
             this.lblLogOff.Size = new System.Drawing.Size(130, 45);
             this.lblLogOff.TabIndex = 40;
@@ -165,12 +167,33 @@
             this.btnWorkouts.TextColor = System.Drawing.Color.Red;
             this.btnWorkouts.UseVisualStyleBackColor = false;
             // 
+            // txtEmail
+            // 
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Location = new System.Drawing.Point(582, 446);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(190, 20);
+            this.txtEmail.TabIndex = 42;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(663, 430);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 41;
+            this.label1.Text = "Email";
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.Settings;
             this.ClientSize = new System.Drawing.Size(1360, 768);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLogOff);
             this.Controls.Add(this.btnWorkouts);
             this.Controls.Add(this.lblSave);
@@ -202,5 +225,7 @@
         private System.Windows.Forms.Label lblSave;
         private MyCal.mycalbuttons btnWorkouts;
         private System.Windows.Forms.Label lblLogOff;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label1;
     }
 }
