@@ -1,15 +1,19 @@
 # MyCal
 
-MyCal is a Calorie Counter Program Written in C#
+## MyCal is a Calorie Counter Program Written in C#
 
-It is my programming project for A level Computer Science.
+> It is my programming project for A level Computer Science.
 
-# How to start up Program
+## How to start up Program
 
-1. Please run the .sln file first and ensure you have an error.
+1. Go on the .sln file and go on the **"mycalbuttons.cs"** class and build it. 
 
-2. Copy and paste the database file from the "DB" folder into the debug folder of the solution
+2. Next run the .sln file and wait for it to take you to the login screen.
 
-3. Go on the "mycalbuttons.cs" and build it. 
+3. Stop the program
 
-4. Once all steps are completed the program should run successfully.
+3. Exit Visual Studio
+
+4. Copy and paste the database file from the "DB" folder into **Login\bin\Debug**
+
+5. Once all steps are completed open up the .sln file again and the program should run successfully.
