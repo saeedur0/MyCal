@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainInterface));
             this.pbSettings = new System.Windows.Forms.PictureBox();
             this.btnWorkouts = new MyCal.mycalbuttons();
+            this.txtCalCount = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,12 +70,27 @@
             this.btnWorkouts.UseVisualStyleBackColor = false;
             this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
             // 
+            // txtCalCount
+            // 
+            this.txtCalCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(177)))));
+            this.txtCalCount.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCalCount.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtCalCount.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCalCount.ForeColor = System.Drawing.Color.White;
+            this.txtCalCount.Location = new System.Drawing.Point(411, 198);
+            this.txtCalCount.Margin = new System.Windows.Forms.Padding(0);
+            this.txtCalCount.Name = "txtCalCount";
+            this.txtCalCount.Size = new System.Drawing.Size(88, 43);
+            this.txtCalCount.TabIndex = 3;
+            this.txtCalCount.Text = "2100";
+            // 
             // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
             this.ClientSize = new System.Drawing.Size(1360, 768);
+            this.Controls.Add(this.txtCalCount);
             this.Controls.Add(this.pbSettings);
             this.Controls.Add(this.btnWorkouts);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -91,5 +107,6 @@
 
         private MyCal.mycalbuttons btnWorkouts;
         private System.Windows.Forms.PictureBox pbSettings;
+        private System.Windows.Forms.RichTextBox txtCalCount;
     }
 }
