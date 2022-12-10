@@ -45,6 +45,7 @@ namespace Login
 
         private void lblSave_Click(object sender, EventArgs e)
         {
+            //Updates the fields 'weight', 'goal weight', 'activity' in the email primary key. 
             string query = "UPDATE tbl_users SET [weight]=@weight, [goal weight]=@gw, [activity]=@act WHERE email=@email";
 
             cmd = new OleDbCommand(query, conn);
@@ -57,11 +58,7 @@ namespace Login
             cmd.ExecuteNonQuery();
             conn.Close();
             MessageBox.Show("Details Updated Successfully", "MyCal Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            //fact is I couldnt've done it without chatgpt
-
-
-
+            //Message Box appears notifying the user that their details have been updated.
 
         }
     }
