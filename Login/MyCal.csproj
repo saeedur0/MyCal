@@ -53,6 +53,12 @@
     <Compile Include="cardio.Designer.cs">
       <DependentUpon>cardio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delete Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Account.Designer.cs">
+      <DependentUpon>Delete Account.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyCal Debug Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </Compile>
     <EmbeddedResource Include="cardio.resx">
       <DependentUpon>cardio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Account.resx">
+      <DependentUpon>Delete Account.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyCal Debug Menu.resx">
       <DependentUpon>MyCal Debug Menu.cs</DependentUpon>

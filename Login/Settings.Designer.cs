@@ -38,7 +38,7 @@
             this.txtweight = new System.Windows.Forms.TextBox();
             this.lblSave = new System.Windows.Forms.Label();
             this.lblLogOff = new System.Windows.Forms.Label();
-            this.btnWorkouts = new MyCal.mycalbuttons();
+            this.btnDel = new MyCal.mycalbuttons();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -144,28 +144,29 @@
             this.lblLogOff.Text = "Log Off";
             this.lblLogOff.Click += new System.EventHandler(this.lblLogOff_Click);
             // 
-            // btnWorkouts
+            // btnDel
             // 
-            this.btnWorkouts.BackColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.BorderColor = System.Drawing.Color.Red;
-            this.btnWorkouts.BorderColor1 = System.Drawing.Color.Red;
-            this.btnWorkouts.BorderRadius = 1;
-            this.btnWorkouts.BorderRadius1 = 1;
-            this.btnWorkouts.BorderSize = 6;
-            this.btnWorkouts.BorderSize1 = 6;
-            this.btnWorkouts.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnWorkouts.FlatAppearance.BorderSize = 0;
-            this.btnWorkouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWorkouts.Font = new System.Drawing.Font("Yu Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWorkouts.ForeColor = System.Drawing.Color.Red;
-            this.btnWorkouts.Location = new System.Drawing.Point(399, 707);
-            this.btnWorkouts.Name = "btnWorkouts";
-            this.btnWorkouts.Size = new System.Drawing.Size(561, 49);
-            this.btnWorkouts.TabIndex = 39;
-            this.btnWorkouts.Text = "Permanently Delete My Account";
-            this.btnWorkouts.TextColor = System.Drawing.Color.Red;
-            this.btnWorkouts.UseVisualStyleBackColor = false;
+            this.btnDel.BackColor = System.Drawing.Color.Transparent;
+            this.btnDel.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnDel.BorderColor = System.Drawing.Color.Red;
+            this.btnDel.BorderColor1 = System.Drawing.Color.Red;
+            this.btnDel.BorderRadius = 1;
+            this.btnDel.BorderRadius1 = 1;
+            this.btnDel.BorderSize = 6;
+            this.btnDel.BorderSize1 = 6;
+            this.btnDel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDel.FlatAppearance.BorderSize = 0;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDel.Font = new System.Drawing.Font("Yu Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDel.ForeColor = System.Drawing.Color.Red;
+            this.btnDel.Location = new System.Drawing.Point(400, 707);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(561, 49);
+            this.btnDel.TabIndex = 39;
+            this.btnDel.Text = "Permanently Delete My Account";
+            this.btnDel.TextColor = System.Drawing.Color.Red;
+            this.btnDel.UseVisualStyleBackColor = false;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // txtEmail
             // 
@@ -195,7 +196,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLogOff);
-            this.Controls.Add(this.btnWorkouts);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.lblSave);
             this.Controls.Add(this.txtAct);
             this.Controls.Add(this.label3);
@@ -223,7 +224,7 @@
         private System.Windows.Forms.Label wlbl;
         private System.Windows.Forms.TextBox txtweight;
         private System.Windows.Forms.Label lblSave;
-        private MyCal.mycalbuttons btnWorkouts;
+        private MyCal.mycalbuttons btnDel;
         private System.Windows.Forms.Label lblLogOff;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label1;

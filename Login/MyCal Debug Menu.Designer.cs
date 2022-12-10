@@ -39,6 +39,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnMin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -167,12 +168,26 @@
             this.label5.Text = "Force Exit";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // btnMin
+            // 
+            this.btnMin.AutoSize = true;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.Font = new System.Drawing.Font("Yu Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMin.ForeColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(424, -20);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(29, 35);
+            this.btnMin.TabIndex = 17;
+            this.btnMin.Text = "_";
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            // 
             // debugmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(134)))), ((int)(((byte)(200)))));
             this.ClientSize = new System.Drawing.Size(450, 300);
+            this.Controls.Add(this.btnMin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -204,5 +219,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label btnMin;
     }
 }

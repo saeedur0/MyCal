@@ -61,5 +61,10 @@ namespace Login
             //Message Box appears notifying the user that their details have been updated.
 
         }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            new Delete_Account().Show();
+        }
     }
 }
