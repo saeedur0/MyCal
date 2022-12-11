@@ -518,5 +518,95 @@ namespace Login
         {
             //ignore
         }
+
+        private void btnwater_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Macros: 0 kcal, 0g of Carbs, 0g of Protein, 0g of fat. Add item to meal log?", "Add 100ml Water", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result == DialogResult.OK)
+            {
+                MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+                mainInterface.SubtractFromCalories(0); //call the SubtractFromCalories method and pass in the value to subtract
+                mainInterface.AddtoCarbs(0);
+                mainInterface.AddtoPro(0);
+                mainInterface.AddtoFat(0);
+                mainInterface.AddtoEaten(0);
+            }
+            else
+            {
+                //nothing
+            }
+        }
+
+        private void btnbluemilk_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Macros: 157 kcal, 12g of Carbs, 9g of Protein, 9g of fat. Add item to meal log?", "Add 100ml Blue Top Milk", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result == DialogResult.OK)
+            {
+                MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+                mainInterface.SubtractFromCalories(157); //call the SubtractFromCalories method and pass in the value to subtract
+                mainInterface.AddtoCarbs(12);
+                mainInterface.AddtoPro(9);
+                mainInterface.AddtoFat(9);
+                mainInterface.AddtoEaten(157);
+            }
+            else
+            {
+                //nothing
+            }
+        }
+
+        private void btnpep_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Macros: 44 kcal, 11g of Carbs, 0g of Protein, 0g of fat. Add item to meal log?", "Add 100ml Pepsi", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result == DialogResult.OK)
+            {
+                MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+                mainInterface.SubtractFromCalories(44); //call the SubtractFromCalories method and pass in the value to subtract
+                mainInterface.AddtoCarbs(11);
+                mainInterface.AddtoPro(0);
+                mainInterface.AddtoFat(0);
+                mainInterface.AddtoEaten(44);
+            }
+            else
+            {
+                //nothing
+            }
+        }
+
+        private void btnsmo_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Macros: 160 kcal, 39g of Carbs, 3g of Protein, 1g of fat. Add item to meal log?", "Add 100ml Green Smoothie", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result == DialogResult.OK)
+            {
+                MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+                mainInterface.SubtractFromCalories(168); //call the SubtractFromCalories method and pass in the value to subtract
+                mainInterface.AddtoCarbs(39);
+                mainInterface.AddtoPro(3);
+                mainInterface.AddtoFat(1);
+                mainInterface.AddtoEaten(168);
+            }
+            else
+            {
+                //nothing
+            }
+        }
+
+        private void lblone_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoBurn(1); 
+        }
+
+        private void lblten_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoBurn(10); 
+        }
+
+        private void lblcent_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoBurn(100); 
+        }
     }
 }

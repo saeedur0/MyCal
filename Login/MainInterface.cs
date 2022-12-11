@@ -53,6 +53,11 @@ namespace Login
             lbleat.Text = (Convert.ToInt32(lbleat.Text) + value).ToString();
         }
 
+        public void AddtoBurn(int value)
+        {
+            lblburned.Text = (Convert.ToInt32(lblburned.Text) + value).ToString();
+        }
+
 
         private void btnWorkouts_Click(object sender, EventArgs e)
         {

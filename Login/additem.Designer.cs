@@ -33,6 +33,9 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnMin = new System.Windows.Forms.Label();
             this.btnrice = new MyCal.mycalbuttons();
             this.btnchkn = new MyCal.mycalbuttons();
             this.btnbroc = new MyCal.mycalbuttons();
@@ -58,11 +61,26 @@
             this.btnor = new MyCal.mycalbuttons();
             this.btnpiz = new MyCal.mycalbuttons();
             this.btndon = new MyCal.mycalbuttons();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnMin = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnwater = new MyCal.mycalbuttons();
+            this.btnbluemilk = new MyCal.mycalbuttons();
+            this.btnpep = new MyCal.mycalbuttons();
+            this.btnsmo = new MyCal.mycalbuttons();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblcent = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.lblten = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.lblone = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // closebtn
@@ -112,6 +130,19 @@
             this.flowLayoutPanel1.Controls.Add(this.btnpiz);
             this.flowLayoutPanel1.Controls.Add(this.btndon);
             this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel1.Controls.Add(this.btnwater);
+            this.flowLayoutPanel1.Controls.Add(this.btnbluemilk);
+            this.flowLayoutPanel1.Controls.Add(this.btnpep);
+            this.flowLayoutPanel1.Controls.Add(this.btnsmo);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
+            this.flowLayoutPanel1.Controls.Add(this.label4);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
+            this.flowLayoutPanel1.Controls.Add(this.lblcent);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
+            this.flowLayoutPanel1.Controls.Add(this.lblten);
+            this.flowLayoutPanel1.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel1.Controls.Add(this.lblone);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 54);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(776, 384);
@@ -138,6 +169,48 @@
             this.pictureBox1.Size = new System.Drawing.Size(662, 34);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(3, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 40);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "Drink";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(368, 33);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Add Food/Drink Items Here";
+            // 
+            // btnMin
+            // 
+            this.btnMin.AutoSize = true;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.Font = new System.Drawing.Font("Yu Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMin.ForeColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(728, -12);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(39, 48);
+            this.btnMin.TabIndex = 18;
+            this.btnMin.Text = "_";
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // btnrice
             // 
@@ -689,47 +762,192 @@
             this.btndon.UseVisualStyleBackColor = false;
             this.btndon.Click += new System.EventHandler(this.btndon_Click);
             // 
-            // label3
+            // pictureBox2
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox2.Location = new System.Drawing.Point(108, 135);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(662, 34);
+            this.pictureBox2.TabIndex = 43;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btnwater
+            // 
+            this.btnwater.BackColor = System.Drawing.Color.Transparent;
+            this.btnwater.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnwater.BorderColor = System.Drawing.Color.Transparent;
+            this.btnwater.BorderColor1 = System.Drawing.Color.Transparent;
+            this.btnwater.BorderRadius = 20;
+            this.btnwater.BorderRadius1 = 20;
+            this.btnwater.BorderSize = 0;
+            this.btnwater.BorderSize1 = 0;
+            this.btnwater.FlatAppearance.BorderSize = 0;
+            this.btnwater.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnwater.ForeColor = System.Drawing.Color.Transparent;
+            this.btnwater.Location = new System.Drawing.Point(3, 175);
+            this.btnwater.Name = "btnwater";
+            this.btnwater.Size = new System.Drawing.Size(50, 40);
+            this.btnwater.TabIndex = 44;
+            this.btnwater.Text = "Water";
+            this.btnwater.TextColor = System.Drawing.Color.Transparent;
+            this.btnwater.UseVisualStyleBackColor = false;
+            this.btnwater.Click += new System.EventHandler(this.btnwater_Click);
+            // 
+            // btnbluemilk
+            // 
+            this.btnbluemilk.BackColor = System.Drawing.Color.Transparent;
+            this.btnbluemilk.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnbluemilk.BorderColor = System.Drawing.Color.Transparent;
+            this.btnbluemilk.BorderColor1 = System.Drawing.Color.Transparent;
+            this.btnbluemilk.BorderRadius = 20;
+            this.btnbluemilk.BorderRadius1 = 20;
+            this.btnbluemilk.BorderSize = 0;
+            this.btnbluemilk.BorderSize1 = 0;
+            this.btnbluemilk.FlatAppearance.BorderSize = 0;
+            this.btnbluemilk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnbluemilk.ForeColor = System.Drawing.Color.Transparent;
+            this.btnbluemilk.Location = new System.Drawing.Point(59, 175);
+            this.btnbluemilk.Name = "btnbluemilk";
+            this.btnbluemilk.Size = new System.Drawing.Size(58, 40);
+            this.btnbluemilk.TabIndex = 45;
+            this.btnbluemilk.Text = "Milk";
+            this.btnbluemilk.TextColor = System.Drawing.Color.Transparent;
+            this.btnbluemilk.UseVisualStyleBackColor = false;
+            this.btnbluemilk.Click += new System.EventHandler(this.btnbluemilk_Click);
+            // 
+            // btnpep
+            // 
+            this.btnpep.BackColor = System.Drawing.Color.Transparent;
+            this.btnpep.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnpep.BorderColor = System.Drawing.Color.Transparent;
+            this.btnpep.BorderColor1 = System.Drawing.Color.Transparent;
+            this.btnpep.BorderRadius = 20;
+            this.btnpep.BorderRadius1 = 20;
+            this.btnpep.BorderSize = 0;
+            this.btnpep.BorderSize1 = 0;
+            this.btnpep.FlatAppearance.BorderSize = 0;
+            this.btnpep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnpep.ForeColor = System.Drawing.Color.Transparent;
+            this.btnpep.Location = new System.Drawing.Point(123, 175);
+            this.btnpep.Name = "btnpep";
+            this.btnpep.Size = new System.Drawing.Size(50, 40);
+            this.btnpep.TabIndex = 46;
+            this.btnpep.Text = "Pepsi";
+            this.btnpep.TextColor = System.Drawing.Color.Transparent;
+            this.btnpep.UseVisualStyleBackColor = false;
+            this.btnpep.Click += new System.EventHandler(this.btnpep_Click);
+            // 
+            // btnsmo
+            // 
+            this.btnsmo.BackColor = System.Drawing.Color.Transparent;
+            this.btnsmo.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnsmo.BorderColor = System.Drawing.Color.Transparent;
+            this.btnsmo.BorderColor1 = System.Drawing.Color.Transparent;
+            this.btnsmo.BorderRadius = 20;
+            this.btnsmo.BorderRadius1 = 20;
+            this.btnsmo.BorderSize = 0;
+            this.btnsmo.BorderSize1 = 0;
+            this.btnsmo.FlatAppearance.BorderSize = 0;
+            this.btnsmo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsmo.ForeColor = System.Drawing.Color.Transparent;
+            this.btnsmo.Location = new System.Drawing.Point(179, 175);
+            this.btnsmo.Name = "btnsmo";
+            this.btnsmo.Size = new System.Drawing.Size(68, 40);
+            this.btnsmo.TabIndex = 47;
+            this.btnsmo.Text = "Green Smoothie";
+            this.btnsmo.TextColor = System.Drawing.Color.Transparent;
+            this.btnsmo.UseVisualStyleBackColor = false;
+            this.btnsmo.Click += new System.EventHandler(this.btnsmo_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(3, 221);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(767, 34);
+            this.pictureBox3.TabIndex = 48;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(3, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 39);
-            this.label3.TabIndex = 42;
-            this.label3.Text = "Drink";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(3, 258);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(265, 40);
+            this.label4.TabIndex = 49;
+            this.label4.Text = "Burned Calories";
             // 
-            // label2
+            // pictureBox4
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox4.Location = new System.Drawing.Point(274, 261);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(496, 34);
+            this.pictureBox4.TabIndex = 50;
+            this.pictureBox4.TabStop = false;
+            // 
+            // lblcent
+            // 
+            this.lblcent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(368, 33);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Add Food/Drink Items Here";
+            this.lblcent.AutoSize = true;
+            this.lblcent.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcent.ForeColor = System.Drawing.Color.White;
+            this.lblcent.Location = new System.Drawing.Point(3, 298);
+            this.lblcent.Name = "lblcent";
+            this.lblcent.Size = new System.Drawing.Size(94, 40);
+            this.lblcent.TabIndex = 51;
+            this.lblcent.Text = "+100";
+            this.lblcent.Click += new System.EventHandler(this.lblcent_Click);
             // 
-            // btnMin
+            // pictureBox5
             // 
-            this.btnMin.AutoSize = true;
-            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMin.Font = new System.Drawing.Font("Yu Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMin.ForeColor = System.Drawing.Color.White;
-            this.btnMin.Location = new System.Drawing.Point(733, -12);
-            this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(39, 48);
-            this.btnMin.TabIndex = 18;
-            this.btnMin.Text = "_";
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            this.pictureBox5.Location = new System.Drawing.Point(103, 301);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(42, 34);
+            this.pictureBox5.TabIndex = 52;
+            this.pictureBox5.TabStop = false;
+            // 
+            // lblten
+            // 
+            this.lblten.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblten.AutoSize = true;
+            this.lblten.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblten.ForeColor = System.Drawing.Color.White;
+            this.lblten.Location = new System.Drawing.Point(151, 298);
+            this.lblten.Name = "lblten";
+            this.lblten.Size = new System.Drawing.Size(75, 40);
+            this.lblten.TabIndex = 53;
+            this.lblten.Text = "+10";
+            this.lblten.Click += new System.EventHandler(this.lblten_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(232, 301);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(42, 34);
+            this.pictureBox6.TabIndex = 54;
+            this.pictureBox6.TabStop = false;
+            // 
+            // lblone
+            // 
+            this.lblone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblone.AutoSize = true;
+            this.lblone.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblone.ForeColor = System.Drawing.Color.White;
+            this.lblone.Location = new System.Drawing.Point(280, 298);
+            this.lblone.Name = "lblone";
+            this.lblone.Size = new System.Drawing.Size(56, 40);
+            this.lblone.TabIndex = 55;
+            this.lblone.Text = "+1";
+            this.lblone.Click += new System.EventHandler(this.lblone_Click);
             // 
             // additem
             // 
@@ -748,6 +966,11 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -787,5 +1010,18 @@
         private MyCal.mycalbuttons btnpiz;
         private MyCal.mycalbuttons btndon;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private MyCal.mycalbuttons btnwater;
+        private MyCal.mycalbuttons btnbluemilk;
+        private MyCal.mycalbuttons btnpep;
+        private MyCal.mycalbuttons btnsmo;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lblcent;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label lblten;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label lblone;
     }
 }

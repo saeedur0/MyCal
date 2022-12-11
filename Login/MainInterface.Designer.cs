@@ -32,16 +32,18 @@
             this.pbSettings = new System.Windows.Forms.PictureBox();
             this.lblcal = new System.Windows.Forms.Label();
             this.pbplus = new System.Windows.Forms.PictureBox();
-            this.btnWorkouts = new MyCal.mycalbuttons();
             this.lblcarbs = new System.Windows.Forms.Label();
             this.lblpro = new System.Windows.Forms.Label();
             this.lblfat = new System.Windows.Forms.Label();
             this.lbleat = new System.Windows.Forms.Label();
             this.lblburned = new System.Windows.Forms.Label();
             this.pbInfoAc = new System.Windows.Forms.PictureBox();
+            this.btnWorkouts = new MyCal.mycalbuttons();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbplus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pbSettings
@@ -79,29 +81,6 @@
             this.pbplus.TabIndex = 3;
             this.pbplus.TabStop = false;
             this.pbplus.Click += new System.EventHandler(this.pbplus_Click);
-            // 
-            // btnWorkouts
-            // 
-            this.btnWorkouts.BackColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.BorderColor = System.Drawing.SystemColors.Control;
-            this.btnWorkouts.BorderColor1 = System.Drawing.SystemColors.Control;
-            this.btnWorkouts.BorderRadius = 1;
-            this.btnWorkouts.BorderRadius1 = 1;
-            this.btnWorkouts.BorderSize = 6;
-            this.btnWorkouts.BorderSize1 = 6;
-            this.btnWorkouts.FlatAppearance.BorderSize = 0;
-            this.btnWorkouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWorkouts.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWorkouts.ForeColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.Location = new System.Drawing.Point(487, 648);
-            this.btnWorkouts.Name = "btnWorkouts";
-            this.btnWorkouts.Size = new System.Drawing.Size(472, 44);
-            this.btnWorkouts.TabIndex = 0;
-            this.btnWorkouts.Text = "Workouts";
-            this.btnWorkouts.TextColor = System.Drawing.Color.Transparent;
-            this.btnWorkouts.UseVisualStyleBackColor = false;
-            this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
             // 
             // lblcarbs
             // 
@@ -176,12 +155,44 @@
             this.pbInfoAc.TabStop = false;
             this.pbInfoAc.Click += new System.EventHandler(this.pbInfoAc_Click);
             // 
+            // btnWorkouts
+            // 
+            this.btnWorkouts.BackColor = System.Drawing.Color.Transparent;
+            this.btnWorkouts.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnWorkouts.BorderColor = System.Drawing.SystemColors.Control;
+            this.btnWorkouts.BorderColor1 = System.Drawing.SystemColors.Control;
+            this.btnWorkouts.BorderRadius = 1;
+            this.btnWorkouts.BorderRadius1 = 1;
+            this.btnWorkouts.BorderSize = 6;
+            this.btnWorkouts.BorderSize1 = 6;
+            this.btnWorkouts.FlatAppearance.BorderSize = 0;
+            this.btnWorkouts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWorkouts.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWorkouts.ForeColor = System.Drawing.Color.Transparent;
+            this.btnWorkouts.Location = new System.Drawing.Point(487, 648);
+            this.btnWorkouts.Name = "btnWorkouts";
+            this.btnWorkouts.Size = new System.Drawing.Size(472, 44);
+            this.btnWorkouts.TabIndex = 0;
+            this.btnWorkouts.Text = "Workouts";
+            this.btnWorkouts.TextColor = System.Drawing.Color.Transparent;
+            this.btnWorkouts.UseVisualStyleBackColor = false;
+            this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(348, 570);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
             // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
             this.ClientSize = new System.Drawing.Size(1360, 768);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pbInfoAc);
             this.Controls.Add(this.lblburned);
             this.Controls.Add(this.lbleat);
@@ -200,6 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbplus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,5 +229,6 @@
         private System.Windows.Forms.Label lbleat;
         private System.Windows.Forms.Label lblburned;
         private System.Windows.Forms.PictureBox pbInfoAc;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
