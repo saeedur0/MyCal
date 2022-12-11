@@ -30,9 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainInterface));
             this.pbSettings = new System.Windows.Forms.PictureBox();
+            this.lblcal = new System.Windows.Forms.Label();
             this.btnWorkouts = new MyCal.mycalbuttons();
-            this.txtCalCount = new System.Windows.Forms.RichTextBox();
+            this.pbplus = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbplus)).BeginInit();
             this.SuspendLayout();
             // 
             // pbSettings
@@ -46,6 +48,18 @@
             this.pbSettings.TabIndex = 1;
             this.pbSettings.TabStop = false;
             this.pbSettings.Click += new System.EventHandler(this.pbSettings_Click);
+            // 
+            // lblcal
+            // 
+            this.lblcal.AutoSize = true;
+            this.lblcal.BackColor = System.Drawing.Color.Transparent;
+            this.lblcal.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcal.ForeColor = System.Drawing.Color.White;
+            this.lblcal.Location = new System.Drawing.Point(405, 201);
+            this.lblcal.Name = "lblcal";
+            this.lblcal.Size = new System.Drawing.Size(38, 42);
+            this.lblcal.TabIndex = 2;
+            this.lblcal.Text = "0";
             // 
             // btnWorkouts
             // 
@@ -70,19 +84,17 @@
             this.btnWorkouts.UseVisualStyleBackColor = false;
             this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
             // 
-            // txtCalCount
+            // pbplus
             // 
-            this.txtCalCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(177)))));
-            this.txtCalCount.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCalCount.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtCalCount.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCalCount.ForeColor = System.Drawing.Color.White;
-            this.txtCalCount.Location = new System.Drawing.Point(411, 198);
-            this.txtCalCount.Margin = new System.Windows.Forms.Padding(0);
-            this.txtCalCount.Name = "txtCalCount";
-            this.txtCalCount.Size = new System.Drawing.Size(88, 43);
-            this.txtCalCount.TabIndex = 3;
-            this.txtCalCount.Text = "2100";
+            this.pbplus.BackColor = System.Drawing.Color.Transparent;
+            this.pbplus.BackgroundImage = global::Login.Properties.Resources.Plus;
+            this.pbplus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbplus.Location = new System.Drawing.Point(60, 514);
+            this.pbplus.Name = "pbplus";
+            this.pbplus.Size = new System.Drawing.Size(64, 64);
+            this.pbplus.TabIndex = 3;
+            this.pbplus.TabStop = false;
+            this.pbplus.Click += new System.EventHandler(this.pbplus_Click);
             // 
             // MainInterface
             // 
@@ -90,7 +102,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
             this.ClientSize = new System.Drawing.Size(1360, 768);
-            this.Controls.Add(this.txtCalCount);
+            this.Controls.Add(this.pbplus);
+            this.Controls.Add(this.lblcal);
             this.Controls.Add(this.pbSettings);
             this.Controls.Add(this.btnWorkouts);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -99,7 +112,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainInterface";
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbplus)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -107,6 +122,7 @@
 
         private MyCal.mycalbuttons btnWorkouts;
         private System.Windows.Forms.PictureBox pbSettings;
-        private System.Windows.Forms.RichTextBox txtCalCount;
+        private System.Windows.Forms.Label lblcal;
+        private System.Windows.Forms.PictureBox pbplus;
     }
 }

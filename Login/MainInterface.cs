@@ -12,16 +12,15 @@ namespace Login
 {
     public partial class MainInterface : Form
     {
+
         public MainInterface()
         {
             InitializeComponent();
-
+            lblcal.Text = Calories.ToString(); //the label takes on the the value of the variable 'calories'
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        int Calories = 2900;
+
 
         private void btnWorkouts_Click(object sender, EventArgs e)
         {
@@ -34,5 +33,12 @@ namespace Login
             new Settings().Show(); //The Settings form is showed to the user
             this.Hide(); //The main interface form is closed
         }
+
+        public void pbplus_Click(object sender, EventArgs e)
+        {
+            new additem().Show();
+        }
+
+
     }
 }
