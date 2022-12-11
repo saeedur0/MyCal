@@ -181,6 +181,7 @@
             this.btnchkn.Text = "Chicken";
             this.btnchkn.TextColor = System.Drawing.Color.Transparent;
             this.btnchkn.UseVisualStyleBackColor = false;
+            this.btnchkn.Click += new System.EventHandler(this.btnchkn_Click);
             // 
             // btnbroc
             // 
@@ -202,6 +203,7 @@
             this.btnbroc.Text = "Broccoli";
             this.btnbroc.TextColor = System.Drawing.Color.Transparent;
             this.btnbroc.UseVisualStyleBackColor = false;
+            this.btnbroc.Click += new System.EventHandler(this.btnbroc_Click);
             // 
             // btncorn
             // 
@@ -223,6 +225,7 @@
             this.btncorn.Text = "Corn";
             this.btncorn.TextColor = System.Drawing.Color.Transparent;
             this.btncorn.UseVisualStyleBackColor = false;
+            this.btncorn.Click += new System.EventHandler(this.btncorn_Click);
             // 
             // btnapp
             // 
@@ -244,6 +247,7 @@
             this.btnapp.Text = "Apple";
             this.btnapp.TextColor = System.Drawing.Color.Transparent;
             this.btnapp.UseVisualStyleBackColor = false;
+            this.btnapp.Click += new System.EventHandler(this.btnapp_Click);
             // 
             // btnban
             // 
@@ -265,6 +269,7 @@
             this.btnban.Text = "Bananas";
             this.btnban.TextColor = System.Drawing.Color.Transparent;
             this.btnban.UseVisualStyleBackColor = false;
+            this.btnban.Click += new System.EventHandler(this.btnban_Click);
             // 
             // btnbeef
             // 
@@ -286,6 +291,7 @@
             this.btnbeef.Text = "Beef";
             this.btnbeef.TextColor = System.Drawing.Color.Transparent;
             this.btnbeef.UseVisualStyleBackColor = false;
+            this.btnbeef.Click += new System.EventHandler(this.btnbeef_Click);
             // 
             // btnlentils
             // 
@@ -307,6 +313,7 @@
             this.btnlentils.Text = "Lentils";
             this.btnlentils.TextColor = System.Drawing.Color.Transparent;
             this.btnlentils.UseVisualStyleBackColor = false;
+            this.btnlentils.Click += new System.EventHandler(this.btnlentils_Click);
             // 
             // btnpot
             // 
@@ -328,6 +335,7 @@
             this.btnpot.Text = "Potato";
             this.btnpot.TextColor = System.Drawing.Color.Transparent;
             this.btnpot.UseVisualStyleBackColor = false;
+            this.btnpot.Click += new System.EventHandler(this.btnpot_Click);
             // 
             // btnsal
             // 
@@ -349,6 +357,7 @@
             this.btnsal.Text = "Salmon";
             this.btnsal.TextColor = System.Drawing.Color.Transparent;
             this.btnsal.UseVisualStyleBackColor = false;
+            this.btnsal.Click += new System.EventHandler(this.btnsal_Click);
             // 
             // btnegg
             // 
@@ -370,6 +379,7 @@
             this.btnegg.Text = "Egg";
             this.btnegg.TextColor = System.Drawing.Color.Transparent;
             this.btnegg.UseVisualStyleBackColor = false;
+            this.btnegg.Click += new System.EventHandler(this.btnegg_Click);
             // 
             // mycalbuttons11
             // 
@@ -391,6 +401,7 @@
             this.mycalbuttons11.Text = "Cheese";
             this.mycalbuttons11.TextColor = System.Drawing.Color.Transparent;
             this.mycalbuttons11.UseVisualStyleBackColor = false;
+            this.mycalbuttons11.Click += new System.EventHandler(this.mycalbuttons11_Click);
             // 
             // btnyog
             // 
@@ -412,6 +423,7 @@
             this.btnyog.Text = "Yoghurt";
             this.btnyog.TextColor = System.Drawing.Color.Transparent;
             this.btnyog.UseVisualStyleBackColor = false;
+            this.btnyog.Click += new System.EventHandler(this.btnyog_Click);
             // 
             // btnhon
             // 
@@ -433,6 +445,7 @@
             this.btnhon.Text = "Honey";
             this.btnhon.TextColor = System.Drawing.Color.Transparent;
             this.btnhon.UseVisualStyleBackColor = false;
+            this.btnhon.Click += new System.EventHandler(this.btnhon_Click);
             // 
             // btnpast
             // 
@@ -454,6 +467,7 @@
             this.btnpast.Text = "Pasta";
             this.btnpast.TextColor = System.Drawing.Color.Transparent;
             this.btnpast.UseVisualStyleBackColor = false;
+            this.btnpast.Click += new System.EventHandler(this.btnpast_Click);
             // 
             // btnspin
             // 
@@ -475,6 +489,7 @@
             this.btnspin.Text = "Spinach";
             this.btnspin.TextColor = System.Drawing.Color.Transparent;
             this.btnspin.UseVisualStyleBackColor = false;
+            this.btnspin.Click += new System.EventHandler(this.btnspin_Click);
             // 
             // btnLet
             // 
@@ -496,6 +511,7 @@
             this.btnLet.Text = "Lettuce";
             this.btnLet.TextColor = System.Drawing.Color.Transparent;
             this.btnLet.UseVisualStyleBackColor = false;
+            this.btnLet.Click += new System.EventHandler(this.btnLet_Click);
             // 
             // btntom
             // 
@@ -517,6 +533,7 @@
             this.btntom.Text = "Tomatoes";
             this.btntom.TextColor = System.Drawing.Color.Transparent;
             this.btntom.UseVisualStyleBackColor = false;
+            this.btntom.Click += new System.EventHandler(this.btntom_Click);
             // 
             // btncuc
             // 
@@ -538,6 +555,7 @@
             this.btncuc.Text = "Cucumber";
             this.btncuc.TextColor = System.Drawing.Color.Transparent;
             this.btncuc.UseVisualStyleBackColor = false;
+            this.btncuc.Click += new System.EventHandler(this.btncuc_Click);
             // 
             // btnpea
             // 
@@ -559,6 +577,7 @@
             this.btnpea.Text = "Peaches";
             this.btnpea.TextColor = System.Drawing.Color.Transparent;
             this.btnpea.UseVisualStyleBackColor = false;
+            this.btnpea.Click += new System.EventHandler(this.btnpea_Click);
             // 
             // btnmay
             // 
@@ -580,6 +599,7 @@
             this.btnmay.Text = "Mayo";
             this.btnmay.TextColor = System.Drawing.Color.Transparent;
             this.btnmay.UseVisualStyleBackColor = false;
+            this.btnmay.Click += new System.EventHandler(this.btnmay_Click);
             // 
             // btnwe
             // 
@@ -601,6 +621,7 @@
             this.btnwe.Text = "Weetabix";
             this.btnwe.TextColor = System.Drawing.Color.Transparent;
             this.btnwe.UseVisualStyleBackColor = false;
+            this.btnwe.Click += new System.EventHandler(this.btnwe_Click);
             // 
             // btnor
             // 
@@ -622,6 +643,7 @@
             this.btnor.Text = "Orange";
             this.btnor.TextColor = System.Drawing.Color.Transparent;
             this.btnor.UseVisualStyleBackColor = false;
+            this.btnor.Click += new System.EventHandler(this.btnor_Click);
             // 
             // btnpiz
             // 
@@ -643,6 +665,7 @@
             this.btnpiz.Text = "Pizza";
             this.btnpiz.TextColor = System.Drawing.Color.Transparent;
             this.btnpiz.UseVisualStyleBackColor = false;
+            this.btnpiz.Click += new System.EventHandler(this.btnpiz_Click);
             // 
             // btndon
             // 
@@ -664,6 +687,7 @@
             this.btndon.Text = "Doner";
             this.btndon.TextColor = System.Drawing.Color.Transparent;
             this.btndon.UseVisualStyleBackColor = false;
+            this.btndon.Click += new System.EventHandler(this.btndon_Click);
             // 
             // label3
             // 
@@ -678,6 +702,7 @@
             this.label3.Size = new System.Drawing.Size(99, 39);
             this.label3.TabIndex = 42;
             this.label3.Text = "Drink";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
