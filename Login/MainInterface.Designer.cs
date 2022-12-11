@@ -33,8 +33,15 @@
             this.lblcal = new System.Windows.Forms.Label();
             this.pbplus = new System.Windows.Forms.PictureBox();
             this.btnWorkouts = new MyCal.mycalbuttons();
+            this.lblcarbs = new System.Windows.Forms.Label();
+            this.lblpro = new System.Windows.Forms.Label();
+            this.lblfat = new System.Windows.Forms.Label();
+            this.lbleat = new System.Windows.Forms.Label();
+            this.lblburned = new System.Windows.Forms.Label();
+            this.pbInfoAc = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbplus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).BeginInit();
             this.SuspendLayout();
             // 
             // pbSettings
@@ -96,12 +103,91 @@
             this.btnWorkouts.UseVisualStyleBackColor = false;
             this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
             // 
+            // lblcarbs
+            // 
+            this.lblcarbs.AutoSize = true;
+            this.lblcarbs.BackColor = System.Drawing.Color.Transparent;
+            this.lblcarbs.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcarbs.ForeColor = System.Drawing.Color.White;
+            this.lblcarbs.Location = new System.Drawing.Point(573, 264);
+            this.lblcarbs.Name = "lblcarbs";
+            this.lblcarbs.Size = new System.Drawing.Size(38, 42);
+            this.lblcarbs.TabIndex = 4;
+            this.lblcarbs.Text = "0";
+            // 
+            // lblpro
+            // 
+            this.lblpro.AutoSize = true;
+            this.lblpro.BackColor = System.Drawing.Color.Transparent;
+            this.lblpro.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpro.ForeColor = System.Drawing.Color.White;
+            this.lblpro.Location = new System.Drawing.Point(571, 333);
+            this.lblpro.Name = "lblpro";
+            this.lblpro.Size = new System.Drawing.Size(38, 42);
+            this.lblpro.TabIndex = 5;
+            this.lblpro.Text = "0";
+            // 
+            // lblfat
+            // 
+            this.lblfat.AutoSize = true;
+            this.lblfat.BackColor = System.Drawing.Color.Transparent;
+            this.lblfat.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfat.ForeColor = System.Drawing.Color.White;
+            this.lblfat.Location = new System.Drawing.Point(575, 404);
+            this.lblfat.Name = "lblfat";
+            this.lblfat.Size = new System.Drawing.Size(38, 42);
+            this.lblfat.TabIndex = 6;
+            this.lblfat.Text = "0";
+            // 
+            // lbleat
+            // 
+            this.lbleat.AutoSize = true;
+            this.lbleat.BackColor = System.Drawing.Color.Transparent;
+            this.lbleat.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbleat.ForeColor = System.Drawing.Color.White;
+            this.lbleat.Location = new System.Drawing.Point(145, 317);
+            this.lbleat.Name = "lbleat";
+            this.lbleat.Size = new System.Drawing.Size(38, 42);
+            this.lbleat.TabIndex = 7;
+            this.lbleat.Text = "0";
+            // 
+            // lblburned
+            // 
+            this.lblburned.AutoSize = true;
+            this.lblburned.BackColor = System.Drawing.Color.Transparent;
+            this.lblburned.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblburned.ForeColor = System.Drawing.Color.White;
+            this.lblburned.Location = new System.Drawing.Point(146, 423);
+            this.lblburned.Name = "lblburned";
+            this.lblburned.Size = new System.Drawing.Size(38, 42);
+            this.lblburned.TabIndex = 8;
+            this.lblburned.Text = "0";
+            // 
+            // pbInfoAc
+            // 
+            this.pbInfoAc.BackColor = System.Drawing.Color.Transparent;
+            this.pbInfoAc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbInfoAc.Image = global::Login.Properties.Resources.surface1info;
+            this.pbInfoAc.Location = new System.Drawing.Point(643, 478);
+            this.pbInfoAc.Name = "pbInfoAc";
+            this.pbInfoAc.Size = new System.Drawing.Size(17, 17);
+            this.pbInfoAc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbInfoAc.TabIndex = 25;
+            this.pbInfoAc.TabStop = false;
+            this.pbInfoAc.Click += new System.EventHandler(this.pbInfoAc_Click);
+            // 
             // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login.Properties.Resources.MI;
             this.ClientSize = new System.Drawing.Size(1360, 768);
+            this.Controls.Add(this.pbInfoAc);
+            this.Controls.Add(this.lblburned);
+            this.Controls.Add(this.lbleat);
+            this.Controls.Add(this.lblfat);
+            this.Controls.Add(this.lblpro);
+            this.Controls.Add(this.lblcarbs);
             this.Controls.Add(this.pbplus);
             this.Controls.Add(this.lblcal);
             this.Controls.Add(this.pbSettings);
@@ -113,6 +199,7 @@
             this.Text = "MainInterface";
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbplus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInfoAc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,5 +211,11 @@
         private System.Windows.Forms.PictureBox pbSettings;
         private System.Windows.Forms.Label lblcal;
         private System.Windows.Forms.PictureBox pbplus;
+        private System.Windows.Forms.Label lblcarbs;
+        private System.Windows.Forms.Label lblpro;
+        private System.Windows.Forms.Label lblfat;
+        private System.Windows.Forms.Label lbleat;
+        private System.Windows.Forms.Label lblburned;
+        private System.Windows.Forms.PictureBox pbInfoAc;
     }
 }

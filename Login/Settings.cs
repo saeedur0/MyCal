@@ -36,11 +36,18 @@ namespace Login
 
         private void lblLogOff_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Press OK to Log Out", "Log Out?", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //^^Displays a message box
-            this.Hide(); //Hides the Settings Form
-            System.Threading.Thread.Sleep(500); //Waits 0.5 seconds to allow user to understand whats going on
-            new Login().Show(); //Displays Login Form
+            DialogResult result = MessageBox.Show("Press OK to Log Out", "Log Out?", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result == DialogResult.OK)
+            {
+                //^^Displays a message box
+                this.Hide(); //Hides the Settings Form
+                System.Threading.Thread.Sleep(500); //Waits 0.5 seconds to allow user to understand whats going on
+                new Login().Show(); //Displays Login Form
+            }
+            else
+            { 
+
+            }
         }
 
         private void lblSave_Click(object sender, EventArgs e)
