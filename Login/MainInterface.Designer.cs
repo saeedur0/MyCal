@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainInterface));
             this.pbSettings = new System.Windows.Forms.PictureBox();
             this.lblcal = new System.Windows.Forms.Label();
-            this.btnWorkouts = new MyCal.mycalbuttons();
             this.pbplus = new System.Windows.Forms.PictureBox();
+            this.btnWorkouts = new MyCal.mycalbuttons();
             ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbplus)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +61,18 @@
             this.lblcal.TabIndex = 2;
             this.lblcal.Text = "0";
             // 
+            // pbplus
+            // 
+            this.pbplus.BackColor = System.Drawing.Color.Transparent;
+            this.pbplus.BackgroundImage = global::Login.Properties.Resources.Plus;
+            this.pbplus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbplus.Location = new System.Drawing.Point(60, 514);
+            this.pbplus.Name = "pbplus";
+            this.pbplus.Size = new System.Drawing.Size(64, 64);
+            this.pbplus.TabIndex = 3;
+            this.pbplus.TabStop = false;
+            this.pbplus.Click += new System.EventHandler(this.pbplus_Click);
+            // 
             // btnWorkouts
             // 
             this.btnWorkouts.BackColor = System.Drawing.Color.Transparent;
@@ -83,18 +95,6 @@
             this.btnWorkouts.TextColor = System.Drawing.Color.Transparent;
             this.btnWorkouts.UseVisualStyleBackColor = false;
             this.btnWorkouts.Click += new System.EventHandler(this.btnWorkouts_Click);
-            // 
-            // pbplus
-            // 
-            this.pbplus.BackColor = System.Drawing.Color.Transparent;
-            this.pbplus.BackgroundImage = global::Login.Properties.Resources.Plus;
-            this.pbplus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbplus.Location = new System.Drawing.Point(60, 514);
-            this.pbplus.Name = "pbplus";
-            this.pbplus.Size = new System.Drawing.Size(64, 64);
-            this.pbplus.TabIndex = 3;
-            this.pbplus.TabStop = false;
-            this.pbplus.Click += new System.EventHandler(this.pbplus_Click);
             // 
             // MainInterface
             // 

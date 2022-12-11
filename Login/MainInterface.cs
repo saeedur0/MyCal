@@ -12,15 +12,20 @@ namespace Login
 {
     public partial class MainInterface : Form
     {
-
+        public static MainInterface Current { get; private set; }
         public MainInterface()
         {
             InitializeComponent();
-            lblcal.Text = Calories.ToString(); //the label takes on the the value of the variable 'calories'
+            Current = this;
+
+            //set the initial value of the lblcal label to 2900
+            lblcal.Text = "2900";
         }
 
-        int Calories = 2900;
-
+        public void SubtractFromCalories(int value)
+        {
+            lblcal.Text = (Convert.ToInt32(lblcal.Text) - value).ToString();
+        }
 
         private void btnWorkouts_Click(object sender, EventArgs e)
         {

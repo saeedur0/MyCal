@@ -17,6 +17,7 @@ namespace Login
         public additem()
         {
             InitializeComponent();
+            
         }
 
         private void closebtn_Click(object sender, EventArgs e)
@@ -29,10 +30,8 @@ namespace Login
             DialogResult result = MessageBox.Show("Macros: 130 kcal, 2.2g of fat, 25.22g of carbs. Add item to meal log?", "Add Rice", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             if (result == DialogResult.OK)
             {
-                MainInterface main = new MainInterface(); //creating an instance of the MainInterface form
-                int calories = int.Parse(main.lblcal.Text); //parsing the text value of the label to an integer
-                calories -= 130; //subtracting the value of the item being added
-                main.lblcal.Text = calories.ToString(); //updating the label with the new value
+               MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+               mainInterface.SubtractFromCalories(130); //call the SubtractFromCalories method and pass in the value to subtract
             }
             else
             {
