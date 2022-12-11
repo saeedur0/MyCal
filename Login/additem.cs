@@ -17,7 +17,46 @@ namespace Login
         public additem()
         {
             InitializeComponent();
-            
+            this.MouseDown += additem_MouseDown;
+            this.MouseMove += additem_MouseMove;
+            this.MouseUp += additem_MouseUp;
+        }
+
+        private bool _isDragging = false;
+        private Point _startPoint;
+
+        private void additem_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Start dragging the form only if the left mouse button is clicked
+            if (e.Button == MouseButtons.Left)
+            {
+                _isDragging = true;
+                _startPoint = e.Location;
+            }
+        }
+
+        private void additem_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (_isDragging)
+            {
+                // Calculate the distance the mouse has been moved since the form was clicked
+                int offsetX = e.Location.X - _startPoint.X;
+                int offsetY = e.Location.Y - _startPoint.Y;
+
+                // Update the position of the form based on the mouse movement
+                this.Location = new Point(this.Location.X + offsetX, this.Location.Y + offsetY);
+            }
+        }
+
+        private void additem_MouseUp(object sender, MouseEventArgs e)
+        {
+            // Stop dragging the form when the mouse button is released
+            _isDragging = false;
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void closebtn_Click(object sender, EventArgs e)
@@ -42,5 +81,7 @@ namespace Login
                 //nothing
             }
         }
+
+       
     }
 }
