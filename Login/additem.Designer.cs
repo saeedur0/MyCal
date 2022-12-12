@@ -33,9 +33,6 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnMin = new System.Windows.Forms.Label();
             this.btnrice = new MyCal.mycalbuttons();
             this.btnchkn = new MyCal.mycalbuttons();
             this.btnbroc = new MyCal.mycalbuttons();
@@ -61,6 +58,7 @@
             this.btnor = new MyCal.mycalbuttons();
             this.btnpiz = new MyCal.mycalbuttons();
             this.btndon = new MyCal.mycalbuttons();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnwater = new MyCal.mycalbuttons();
             this.btnbluemilk = new MyCal.mycalbuttons();
@@ -74,6 +72,8 @@
             this.lblten = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.lblone = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnMin = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -169,48 +169,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(662, 34);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(3, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 40);
-            this.label3.TabIndex = 42;
-            this.label3.Text = "Drink";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(368, 33);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Add Food/Drink Items Here";
-            // 
-            // btnMin
-            // 
-            this.btnMin.AutoSize = true;
-            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMin.Font = new System.Drawing.Font("Yu Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMin.ForeColor = System.Drawing.Color.White;
-            this.btnMin.Location = new System.Drawing.Point(728, -12);
-            this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(39, 48);
-            this.btnMin.TabIndex = 18;
-            this.btnMin.Text = "_";
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // btnrice
             // 
@@ -762,6 +720,21 @@
             this.btndon.UseVisualStyleBackColor = false;
             this.btndon.Click += new System.EventHandler(this.btndon_Click);
             // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(3, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 40);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "Drink";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(108, 135);
@@ -894,6 +867,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblcent.AutoSize = true;
+            this.lblcent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblcent.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcent.ForeColor = System.Drawing.Color.White;
             this.lblcent.Location = new System.Drawing.Point(3, 298);
@@ -917,6 +891,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblten.AutoSize = true;
+            this.lblten.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblten.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblten.ForeColor = System.Drawing.Color.White;
             this.lblten.Location = new System.Drawing.Point(151, 298);
@@ -940,6 +915,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblone.AutoSize = true;
+            this.lblone.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblone.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblone.ForeColor = System.Drawing.Color.White;
             this.lblone.Location = new System.Drawing.Point(280, 298);
@@ -948,6 +924,33 @@
             this.lblone.TabIndex = 55;
             this.lblone.Text = "+1";
             this.lblone.Click += new System.EventHandler(this.lblone_Click);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(368, 33);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Add Food/Drink Items Here";
+            // 
+            // btnMin
+            // 
+            this.btnMin.AutoSize = true;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.Font = new System.Drawing.Font("Yu Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMin.ForeColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(728, -12);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(39, 48);
+            this.btnMin.TabIndex = 18;
+            this.btnMin.Text = "_";
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // additem
             // 

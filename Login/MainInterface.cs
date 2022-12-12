@@ -25,6 +25,7 @@ namespace Login
             lblfat.Text = "0";
             lbleat.Text = "0";
             lblburned.Text = "0";
+            lblwater.Text = "0";
         }
 
         public void SubtractFromCalories(int value)
@@ -58,6 +59,25 @@ namespace Login
             lblburned.Text = (Convert.ToInt32(lblburned.Text) + value).ToString();
         }
 
+        public void WaterPlus(int value)
+        {
+            lblwater.Text = (Convert.ToInt32(lblwater.Text) + value).ToString();
+        }
+
+        public void WaterMinus(int value)
+        {
+            lblwater.Text = (Convert.ToInt32(lblwater.Text) - value).ToString();
+        }
+
+        private void pbwaterup_Click(object sender, EventArgs e)
+        {
+            WaterPlus(100);
+        }
+
+        private void pbwaterdown_Click(object sender, EventArgs e)
+        {
+            WaterMinus(50);
+        }
 
         private void btnWorkouts_Click(object sender, EventArgs e)
         {
@@ -80,5 +100,12 @@ namespace Login
         {
             MessageBox.Show("Macros are in grams", "Macro Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Water is in mililitres (ml) and increments by 100ml and decrements by 50ml", "Water Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        
     }
 }
