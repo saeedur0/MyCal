@@ -608,5 +608,77 @@ namespace Login
             MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
             mainInterface.AddtoBurn(100); 
         }
+
+        private void lblc100_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoCarbs(100);
+        }
+
+        private void lblc10_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoCarbs(10);
+        }
+
+        private void lblc1_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoCarbs(1);
+        }
+
+        private void lblpro100_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoPro(100);
+        }
+
+        private void lblpro10_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoPro(10);
+        }
+
+        private void lblpro1_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoPro(1);
+        }
+
+        private void lblfat100_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoFat(100);
+        }
+
+        private void lblfat10_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoFat(10);
+        }
+
+        private void lblfat1_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.AddtoFat(1);
+        }
+
+        private void lblcal100_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.SubtractFromCalories(100);
+        }
+
+        private void lblcal10_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.SubtractFromCalories(10);
+        }
+
+        private void lblcal1_Click(object sender, EventArgs e)
+        {
+            MainInterface mainInterface = MainInterface.Current; //get the existing instance of the MainInterface form
+            mainInterface.SubtractFromCalories(1);
+        }
     }
 }

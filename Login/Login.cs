@@ -114,10 +114,10 @@ namespace Login
 
         private void pbDebug_Click(object sender, EventArgs e)
         {
-            debugmenu D = new debugmenu();
-            D.TopMost = true; //always keeps the window for the debug menu on top of all other windows for ease of access
-            D.Show();
-            this.Hide(); //hides login form
+            //debugmenu D = new debugmenu();
+            //D.TopMost = true; //always keeps the window for the debug menu on top of all other windows for ease of access
+            //D.Show();
+            //this.Hide(); //hides login form
         }
     }
 }
